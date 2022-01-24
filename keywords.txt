@@ -1,0 +1,20 @@
+Special Forms:
+quote, setq, func, lambda, prog, cond, while, return, break
+
+Predefined functions:
+plus, minus, times, divide
+
+Operations on lists:
+head, tail, cons
+
+Comparisons:
+equal, nonequal, less, lesseq, greater, greatereq
+
+Predicates:
+isint, isreal, isbool, isnull, isatom, islist
+
+Logical Operators:
+and, or, xor, not, true, false
+
+Evaluator:
+eval
