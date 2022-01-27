@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Makshe/Repos/Compiler/lexical_analyzer.h">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="C:/Users/Makshe/Repos/Compiler/main.cpp">
 			<Option target="Compiler"/>
 		</Unit>

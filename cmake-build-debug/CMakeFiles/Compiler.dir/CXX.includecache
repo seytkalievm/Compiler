@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Makshe/Repos/Compiler/lexical_analyzer.h
+string
+-
+fstream
+-
+cstring
+-
+
 C:/Users/Makshe/Repos/Compiler/main.cpp
 iostream
 -
+fstream
+-
+cstring
+-
+cmath
+-
+lexical_analyzer.h
+C:/Users/Makshe/Repos/Compiler/lexical_analyzer.h
 
