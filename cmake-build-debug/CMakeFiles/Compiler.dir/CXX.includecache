@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Makshe/Repos/Compiler/lexical_analyzer.h
+/Users/diazzz/CLionProjects/Compiler/lexical_analyzer.h
 string
 -
 fstream
@@ -14,7 +14,7 @@ fstream
 cstring
 -
 
-C:/Users/Makshe/Repos/Compiler/main.cpp
+/Users/diazzz/CLionProjects/Compiler/main.cpp
 iostream
 -
 fstream
@@ -24,5 +24,5 @@ cstring
 cmath
 -
 lexical_analyzer.h
-C:/Users/Makshe/Repos/Compiler/lexical_analyzer.h
+/Users/diazzz/CLionProjects/Compiler/lexical_analyzer.h
 

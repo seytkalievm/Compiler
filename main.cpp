@@ -15,14 +15,13 @@ int main() {
     peek = sourcecode.peek();
     Token tokens[200];
 
-    if(sourcecode.is_open()){
-        while(peek!=EOF){
+    if (sourcecode.is_open()) {
+        while (peek != EOF) {
             tokens[cur] = getNextToken( &sourcecode, &curLine, &curChar);
             cout << to_string(tokens[cur].code) << " ";
             cur++;
             peek = sourcecode.peek();
         }
-
     }
     sourcecode.close();
 
