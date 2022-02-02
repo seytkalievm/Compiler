@@ -44,6 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/diazzz/CLionProjects/Compiler"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
@@ -65,6 +66,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/diazzz/CLionProjects/Compiler"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
@@ -80,7 +82,70 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/diazzz/CLionProjects/Compiler/lexical_analyzer.h">
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/LexicalAnalyzer/lexical_analyzer.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/Resources/tokens.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/arithmeticNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/atomNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/breakNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/comparisonNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/condNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/elementNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/evaluatorNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/funcNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/lambdaNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/listNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/literalNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/logicalOpNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/operationListNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/predicates.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/progNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/quoteNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/returnNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/setqNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/whileNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/node.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzz/CLionProjects/Compiler/main.cpp">

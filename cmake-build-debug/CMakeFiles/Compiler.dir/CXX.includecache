@@ -6,12 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/Users/diazzz/CLionProjects/Compiler/lexical_analyzer.h
+../Resources/tokens.h
+
+/Users/diazzz/CLionProjects/Compiler/LexicalAnalyzer/lexical_analyzer.h
 string
 -
 fstream
 -
 cstring
+-
+Resources/tokens.h
 -
 
 /Users/diazzz/CLionProjects/Compiler/main.cpp
@@ -23,6 +27,6 @@ cstring
 -
 cmath
 -
-lexical_analyzer.h
-/Users/diazzz/CLionProjects/Compiler/lexical_analyzer.h
+LexicalAnalyzer/lexical_analyzer.h
+/Users/diazzz/CLionProjects/Compiler/LexicalAnalyzer/lexical_analyzer.h
 

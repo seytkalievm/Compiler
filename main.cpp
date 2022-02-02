@@ -3,7 +3,7 @@
 #include <cstring>
 #include <cmath>
 using namespace std;
-#include "lexical_analyzer.h"
+#include "LexicalAnalyzer/lexical_analyzer.h"
 
 
 
