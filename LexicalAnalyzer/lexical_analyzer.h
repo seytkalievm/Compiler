@@ -1,25 +1,32 @@
 #include <string>
 #include <fstream>
 #include <cstring>
+#include <vector>
 
 #include <Resources/tokens.h>
 
-Token getNextToken(ifstream *file, const int *curLine, const int*curChar){
+Token getNextToken(std::ifstream *file, int *curLine, int *curPos){
     Token token;
     char c;
     const char *tok;
     int startPos = 0;
     int endPos = 0;
-    char buff [200] = "";
 
-    string tokenLetters = "";
+    std::string tokenLetters = "";
 
     while(file->peek() == ' ' || file->peek() == '\n'){
         startPos++;
         endPos++;
+        curPos++;
+        if(file->peek() == '\n') {
+            (*curPos) = 1;
+            (*curLine) ++;
+        }
         file->get(c);
     }
 
+    token.position = *curPos;
+    token.line = *curLine;
     if (file->peek() == EOF) {
         token.code = tokEndFile;
         return token;
@@ -27,11 +34,11 @@ Token getNextToken(ifstream *file, const int *curLine, const int*curChar){
 
     tokenLetters += file->get();
 
-    if(tokenLetters != "(" && tokenLetters != ")" && tokenLetters != "[" && tokenLetters != "]" && tokenLetters != "\'" && tokenLetters != "/") {
-        while (file->peek() != ' ' && file->peek() != '(' && file->peek() != ')' && file->peek() != '[' &&
-               file->peek() != ']' && file->peek() != EOF) {
+    if(tokenLetters != "(" && tokenLetters != ")" && tokenLetters != "[" && tokenLetters != "]" && tokenLetters != "\'" && tokenLetters != "/" && tokenLetters != "\n") {
+        while (file->peek() != ' ' && file->peek() != '(' && file->peek() != ')' && file->peek() != '[' && file->peek() != ']' && file->peek() != EOF && file->peek() != '\n') {
             tokenLetters += file->get();
             endPos++;
+            curPos++;
         }
     }
 
@@ -65,60 +72,60 @@ Token getNextToken(ifstream *file, const int *curLine, const int*curChar){
         token.code = tokBreak;
     } else if (tokenLetters == "equal") {
         token.code = tokEqual;
-    } else if (tokenLetters == "nonequal" ) {
+    } else if (tokenLetters == "nonequal") {
         token.code = tokNonEqual;
-    } else if (tokenLetters == "less" ) {
+    } else if (tokenLetters == "less") {
         token.code = tokLess;
     } else if (tokenLetters == "lesseq") {
         token.code = tokLessEq;
     } else if (tokenLetters == "greater") {
         token.code = tokGreater;
-    } else if (tokenLetters == "greatereq" ) {
+    } else if (tokenLetters == "greatereq") {
         token.code = tokGreaterEq;
-    } else if (tokenLetters == "isint" ) {
+    } else if (tokenLetters == "isint") {
         token.code = tokIsint;
-    } else if (tokenLetters == "isreal" ) {
+    } else if (tokenLetters == "isreal") {
         token.code = tokIsReal;
-    } else if (tokenLetters == "isbool" ) {
+    } else if (tokenLetters == "isbool") {
         token.code = tokIsBool;
-    } else if (tokenLetters == "isnull" ) {
+    } else if (tokenLetters == "isnull") {
         token.code = tokIsNull;
-    } else if (tokenLetters == "isatom" ) {
+    } else if (tokenLetters == "isatom") {
         token.code = tokIsAtom;
-    } else if (tokenLetters == "islist" ) {
+    } else if (tokenLetters == "islist") {
         token.code = tokIsList;
-    } else if (tokenLetters == "and" ) {
+    } else if (tokenLetters == "and") {
         token.code = tokAnd;
-    } else if (tokenLetters == "or" ) {
+    } else if (tokenLetters == "or") {
         token.code = tokOr;
-    } else if (tokenLetters == "xor" ) {
+    } else if (tokenLetters == "xor") {
         token.code = tokXor;
-    } else if (tokenLetters == "not" ) {
+    } else if (tokenLetters == "not") {
         token.code = tokNot;
-    } else if (tokenLetters == "true" ) {
+    } else if (tokenLetters == "true") {
         token.code = tokTrue;
-    } else if (tokenLetters == "false" ) {
+    } else if (tokenLetters == "false") {
         token.code = tokFalse;
-    } else if (tokenLetters == "plus" ) {
+    } else if (tokenLetters == "plus") {
         token.code = tokPlus;
-    } else if (tokenLetters == "minus" ) {
+    } else if (tokenLetters == "minus") {
         token.code = tokMinus;
-    } else if (tokenLetters == "times" ) {
+    } else if (tokenLetters == "times") {
         token.code = tokTimes;
-    } else if (tokenLetters == "divide" ) {
+    } else if (tokenLetters == "divide") {
         token.code = tokDivide;
-    } else if (tokenLetters == "head" ) {
+    } else if (tokenLetters == "head") {
         token.code = tokHead;
-    } else if (tokenLetters == "tail" ) {
+    } else if (tokenLetters == "tail") {
         token.code = tokTail;
-    } else if (tokenLetters == "cons" ) {
+    } else if (tokenLetters == "cons") {
         token.code = tokCons;
-    } else if (tokenLetters == "eval" ) {
+    } else if (tokenLetters == "eval") {
         token.code = tokEval;
     } else if (tokenLetters.size() == 1) {
         if(isdigit(tok[0])){
             token.code = tokDec;
-            token.decVal = stoi(tok);
+            token.decVal = std::stoi(tok);
         } else{
             token.code = tokLetter;
             token.letterVal = tok[0];
@@ -142,7 +149,22 @@ Token getNextToken(ifstream *file, const int *curLine, const int*curChar){
         token.code = tokIdentifier;
         token.idVal = tokenLetters;
     }
-    curChar += endPos;
     return token;
-    
+}
+
+std::vector<Token> Analyze(std::ifstream& sourcecode) {
+    int curLine = 1, curPos = 0;
+    int cur = 0;
+    char peek = sourcecode.peek();
+    std::vector < Token > tokensList;
+
+    if (sourcecode.is_open()) {
+        while (peek != EOF) {
+            tokensList.push_back(getNextToken( &sourcecode, &curLine, &curPos));
+            cur++;
+            peek = sourcecode.peek();
+        }
+    }
+    sourcecode.close();
+    return tokensList;
 }

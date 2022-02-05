@@ -1,4 +1,7 @@
-enum Code{
+#ifndef COMPILER_TOKENS_H
+#define COMPILER_TOKENS_H
+
+enum Code {
     tokOpenParenthesis,
     tokCloseParenthesis,
     tokOpenBracket,
@@ -44,15 +47,21 @@ enum Code{
     tokDec,
     tokReal,
     tokIdentifier,
-    tokEndFile
+    tokEndFile,
+    tokEndLine
 };
 
-
-struct Token{
+struct Token {
     unsigned int code = -1;
-    char letterVal = -1;
-    int intVal = -1;
-    int decVal = -1;
-    double realVal = -1;
-    string idVal;
+
+    char letterVal;
+    int intVal;
+    int decVal;
+    double realVal;
+    std::string idVal;
+
+    int line;
+    int position;
 };
+
+#endif //COMPILER_TOKENS_H

@@ -139,10 +139,19 @@
 		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/returnNode.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/rootNode.h">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/setqNode.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/AST/whileNode.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/Parser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/Parsers/ElementParser.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzz/CLionProjects/Compiler/SyntaxAnalyzer/node.h">
