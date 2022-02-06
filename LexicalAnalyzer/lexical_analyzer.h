@@ -5,6 +5,9 @@
 
 #include <Resources/tokens.h>
 
+#ifndef COMPILER_LEXICAL_ANALYZER_H
+#define COMPILER_LEXICAL_ANALYZER_H
+
 Token getNextToken(std::ifstream *file, int *curLine, int *curPos){
     Token token;
     char c;
@@ -168,3 +171,5 @@ std::vector<Token> Analyze(std::ifstream& sourcecode) {
     sourcecode.close();
     return tokensList;
 }
+
+#endif

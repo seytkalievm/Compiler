@@ -1,7 +1,11 @@
 #include <SyntaxAnalyzer/node.h>
 #include <vector>
 
+#ifndef COMPILER_ROOTNODE_H
+#define COMPILER_ROOTNODE_H
+
 class rootNode {
+public:
     std::vector<Node> nodes;
     rootNode() {
         nodes = std::vector<Node>();
@@ -10,3 +14,5 @@ class rootNode {
         nodes.push_back(node);
     }
 };
+
+#endif
