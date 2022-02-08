@@ -1,5 +1,5 @@
 #include <SyntaxAnalyzer/AST/elementNode.h>
 
-class breakNode: elementNode {
+class breakNode: public elementNode {
 
 };

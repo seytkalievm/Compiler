@@ -1,7 +1,7 @@
 #include <SyntaxAnalyzer/AST/elementNode.h>
 #include <SyntaxAnalyzer/AST/atomNode.h>
 
-class setqNode: elementNode {
+class setqNode: public elementNode {
 public:
     atomNode Atom;
     elementNode Element;

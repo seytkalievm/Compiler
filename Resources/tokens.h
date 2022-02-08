@@ -1,3 +1,5 @@
+#include <string>
+
 #ifndef COMPILER_TOKENS_H
 #define COMPILER_TOKENS_H
 
@@ -22,7 +24,7 @@ enum Code {
     tokLessEq,
     tokGreater,
     tokGreaterEq,
-    tokIsint,
+    tokIsInt,
     tokIsReal,
     tokIsBool,
     tokIsNull,
@@ -42,23 +44,20 @@ enum Code {
     tokTail,
     tokCons,
     tokEval,
-    tokLetter,
     tokInt,
-    tokDec,
     tokReal,
-    tokIdentifier,
-    tokEndFile,
-    tokEndLine
+    tokBoolean,
+    tokAtom,
+    tokEndFile
 };
 
 struct Token {
     unsigned int code = -1;
 
-    char letterVal;
     int intVal;
-    int decVal;
     double realVal;
-    std::string idVal;
+    bool boolVal;
+    std::string atomVal;
 
     int line;
     int position;

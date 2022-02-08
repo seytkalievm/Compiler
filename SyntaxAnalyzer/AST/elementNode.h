@@ -3,7 +3,7 @@
 #ifndef COMPILER_ELEMENTNODE_H
 #define COMPILER_ELEMENTNODE_H
 
-class elementNode: Node {
+class elementNode: public Node {
 
 };
 

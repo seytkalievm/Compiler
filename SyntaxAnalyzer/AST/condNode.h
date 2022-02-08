@@ -1,6 +1,6 @@
 #include <SyntaxAnalyzer/AST/elementNode.h>
 
-class condNode: elementNode {
+class condNode: public elementNode {
 public:
     elementNode Element1;
     elementNode Element2;

@@ -1,6 +1,6 @@
 #include <SyntaxAnalyzer/AST/elementNode.h>
 
-class whileNode: elementNode {
+class whileNode: public elementNode {
 public:
     elementNode Element1;
     elementNode Element2;

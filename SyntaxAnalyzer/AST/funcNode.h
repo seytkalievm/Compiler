@@ -2,7 +2,7 @@
 #include <SyntaxAnalyzer/AST/atomNode.h>
 #include <SyntaxAnalyzer/AST/listNode.h>
 
-class funcNode: elementNode {
+class funcNode: public elementNode {
 public:
     atomNode Atom;
     listNode List;

@@ -2,15 +2,18 @@
 #include <SyntaxAnalyzer/AST/listNode.h>
 #include <string>
 
-class literalNode: elementNode {
+#ifndef COMPILER_LITERALNODE_H
+#define COMPILER_LITERALNODE_H
+
+class literalNode: public elementNode {
 public:
-    string type;
+    std::string type;
     int IntegerLiteral;
     bool BooleanLiteral;
     double RealLiteral;
     listNode ListLiteral;
 
-    void SetType(string name) {
+    void SetType(std::string name) {
         type = name;
     }
     void SetInteger(int value) {
@@ -20,9 +23,11 @@ public:
         BooleanLiteral = value;
     }
     void SetReal(double value) {
-        FloatLiteral = value;
+        RealLiteral = value;
     }
     void SetList(listNode value) {
         ListLiteral = value;
     }
 };
+
+#endif

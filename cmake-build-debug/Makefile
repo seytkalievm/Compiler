@@ -143,6 +143,465 @@ Compiler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/build
 .PHONY : Compiler/fast
 
+LexicalAnalyzer/lexical_analyzer.o: LexicalAnalyzer/lexical_analyzer.cpp.o
+
+.PHONY : LexicalAnalyzer/lexical_analyzer.o
+
+# target to build an object file
+LexicalAnalyzer/lexical_analyzer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o
+.PHONY : LexicalAnalyzer/lexical_analyzer.cpp.o
+
+LexicalAnalyzer/lexical_analyzer.i: LexicalAnalyzer/lexical_analyzer.cpp.i
+
+.PHONY : LexicalAnalyzer/lexical_analyzer.i
+
+# target to preprocess a source file
+LexicalAnalyzer/lexical_analyzer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.i
+.PHONY : LexicalAnalyzer/lexical_analyzer.cpp.i
+
+LexicalAnalyzer/lexical_analyzer.s: LexicalAnalyzer/lexical_analyzer.cpp.s
+
+.PHONY : LexicalAnalyzer/lexical_analyzer.s
+
+# target to generate assembly for a file
+LexicalAnalyzer/lexical_analyzer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.s
+.PHONY : LexicalAnalyzer/lexical_analyzer.cpp.s
+
+SyntaxAnalyzer/Parser.o: SyntaxAnalyzer/Parser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parser.cpp.o
+.PHONY : SyntaxAnalyzer/Parser.cpp.o
+
+SyntaxAnalyzer/Parser.i: SyntaxAnalyzer/Parser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parser.cpp.i
+.PHONY : SyntaxAnalyzer/Parser.cpp.i
+
+SyntaxAnalyzer/Parser.s: SyntaxAnalyzer/Parser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parser.cpp.s
+.PHONY : SyntaxAnalyzer/Parser.cpp.s
+
+SyntaxAnalyzer/Parsers/ArithmeticParser.o: SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/ArithmeticParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o
+
+SyntaxAnalyzer/Parsers/ArithmeticParser.i: SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/ArithmeticParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.i
+
+SyntaxAnalyzer/Parsers/ArithmeticParser.s: SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/ArithmeticParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.s
+
+SyntaxAnalyzer/Parsers/AtomParser.o: SyntaxAnalyzer/Parsers/AtomParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/AtomParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/AtomParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/AtomParser.cpp.o
+
+SyntaxAnalyzer/Parsers/AtomParser.i: SyntaxAnalyzer/Parsers/AtomParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/AtomParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/AtomParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/AtomParser.cpp.i
+
+SyntaxAnalyzer/Parsers/AtomParser.s: SyntaxAnalyzer/Parsers/AtomParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/AtomParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/AtomParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/AtomParser.cpp.s
+
+SyntaxAnalyzer/Parsers/BreakParser.o: SyntaxAnalyzer/Parsers/BreakParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/BreakParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/BreakParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/BreakParser.cpp.o
+
+SyntaxAnalyzer/Parsers/BreakParser.i: SyntaxAnalyzer/Parsers/BreakParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/BreakParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/BreakParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/BreakParser.cpp.i
+
+SyntaxAnalyzer/Parsers/BreakParser.s: SyntaxAnalyzer/Parsers/BreakParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/BreakParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/BreakParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/BreakParser.cpp.s
+
+SyntaxAnalyzer/Parsers/ComparisonParser.o: SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/ComparisonParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o
+
+SyntaxAnalyzer/Parsers/ComparisonParser.i: SyntaxAnalyzer/Parsers/ComparisonParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/ComparisonParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/ComparisonParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/ComparisonParser.cpp.i
+
+SyntaxAnalyzer/Parsers/ComparisonParser.s: SyntaxAnalyzer/Parsers/ComparisonParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/ComparisonParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/ComparisonParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/ComparisonParser.cpp.s
+
+SyntaxAnalyzer/Parsers/CondParser.o: SyntaxAnalyzer/Parsers/CondParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/CondParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/CondParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/CondParser.cpp.o
+
+SyntaxAnalyzer/Parsers/CondParser.i: SyntaxAnalyzer/Parsers/CondParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/CondParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/CondParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/CondParser.cpp.i
+
+SyntaxAnalyzer/Parsers/CondParser.s: SyntaxAnalyzer/Parsers/CondParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/CondParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/CondParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/CondParser.cpp.s
+
+SyntaxAnalyzer/Parsers/ElementParser.o: SyntaxAnalyzer/Parsers/ElementParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/ElementParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/ElementParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/ElementParser.cpp.o
+
+SyntaxAnalyzer/Parsers/ElementParser.i: SyntaxAnalyzer/Parsers/ElementParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/ElementParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/ElementParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/ElementParser.cpp.i
+
+SyntaxAnalyzer/Parsers/ElementParser.s: SyntaxAnalyzer/Parsers/ElementParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/ElementParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/ElementParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/ElementParser.cpp.s
+
+SyntaxAnalyzer/Parsers/FuncParser.o: SyntaxAnalyzer/Parsers/FuncParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/FuncParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/FuncParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/FuncParser.cpp.o
+
+SyntaxAnalyzer/Parsers/FuncParser.i: SyntaxAnalyzer/Parsers/FuncParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/FuncParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/FuncParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/FuncParser.cpp.i
+
+SyntaxAnalyzer/Parsers/FuncParser.s: SyntaxAnalyzer/Parsers/FuncParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/FuncParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/FuncParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/FuncParser.cpp.s
+
+SyntaxAnalyzer/Parsers/LambdaParser.o: SyntaxAnalyzer/Parsers/LambdaParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/LambdaParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/LambdaParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/LambdaParser.cpp.o
+
+SyntaxAnalyzer/Parsers/LambdaParser.i: SyntaxAnalyzer/Parsers/LambdaParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/LambdaParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/LambdaParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/LambdaParser.cpp.i
+
+SyntaxAnalyzer/Parsers/LambdaParser.s: SyntaxAnalyzer/Parsers/LambdaParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/LambdaParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/LambdaParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/LambdaParser.cpp.s
+
+SyntaxAnalyzer/Parsers/ListParser.o: SyntaxAnalyzer/Parsers/ListParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/ListParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/ListParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/ListParser.cpp.o
+
+SyntaxAnalyzer/Parsers/ListParser.i: SyntaxAnalyzer/Parsers/ListParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/ListParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/ListParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/ListParser.cpp.i
+
+SyntaxAnalyzer/Parsers/ListParser.s: SyntaxAnalyzer/Parsers/ListParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/ListParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/ListParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/ListParser.cpp.s
+
+SyntaxAnalyzer/Parsers/LiteralParser.o: SyntaxAnalyzer/Parsers/LiteralParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/LiteralParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/LiteralParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/LiteralParser.cpp.o
+
+SyntaxAnalyzer/Parsers/LiteralParser.i: SyntaxAnalyzer/Parsers/LiteralParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/LiteralParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/LiteralParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/LiteralParser.cpp.i
+
+SyntaxAnalyzer/Parsers/LiteralParser.s: SyntaxAnalyzer/Parsers/LiteralParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/LiteralParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/LiteralParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/LiteralParser.cpp.s
+
+SyntaxAnalyzer/Parsers/OperationOnListParser.o: SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/OperationOnListParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o
+
+SyntaxAnalyzer/Parsers/OperationOnListParser.i: SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/OperationOnListParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.i
+
+SyntaxAnalyzer/Parsers/OperationOnListParser.s: SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/OperationOnListParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.s
+
+SyntaxAnalyzer/Parsers/ProgParser.o: SyntaxAnalyzer/Parsers/ProgParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/ProgParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/ProgParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/ProgParser.cpp.o
+
+SyntaxAnalyzer/Parsers/ProgParser.i: SyntaxAnalyzer/Parsers/ProgParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/ProgParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/ProgParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/ProgParser.cpp.i
+
+SyntaxAnalyzer/Parsers/ProgParser.s: SyntaxAnalyzer/Parsers/ProgParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/ProgParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/ProgParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/ProgParser.cpp.s
+
+SyntaxAnalyzer/Parsers/ReturnParser.o: SyntaxAnalyzer/Parsers/ReturnParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/ReturnParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/ReturnParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/ReturnParser.cpp.o
+
+SyntaxAnalyzer/Parsers/ReturnParser.i: SyntaxAnalyzer/Parsers/ReturnParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/ReturnParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/ReturnParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/ReturnParser.cpp.i
+
+SyntaxAnalyzer/Parsers/ReturnParser.s: SyntaxAnalyzer/Parsers/ReturnParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/ReturnParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/ReturnParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/ReturnParser.cpp.s
+
+SyntaxAnalyzer/Parsers/SetqParser.o: SyntaxAnalyzer/Parsers/SetqParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/SetqParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/SetqParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/SetqParser.cpp.o
+
+SyntaxAnalyzer/Parsers/SetqParser.i: SyntaxAnalyzer/Parsers/SetqParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/SetqParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/SetqParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/SetqParser.cpp.i
+
+SyntaxAnalyzer/Parsers/SetqParser.s: SyntaxAnalyzer/Parsers/SetqParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/SetqParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/SetqParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/SetqParser.cpp.s
+
+SyntaxAnalyzer/Parsers/WhileParser.o: SyntaxAnalyzer/Parsers/WhileParser.cpp.o
+
+.PHONY : SyntaxAnalyzer/Parsers/WhileParser.o
+
+# target to build an object file
+SyntaxAnalyzer/Parsers/WhileParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o
+.PHONY : SyntaxAnalyzer/Parsers/WhileParser.cpp.o
+
+SyntaxAnalyzer/Parsers/WhileParser.i: SyntaxAnalyzer/Parsers/WhileParser.cpp.i
+
+.PHONY : SyntaxAnalyzer/Parsers/WhileParser.i
+
+# target to preprocess a source file
+SyntaxAnalyzer/Parsers/WhileParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.i
+.PHONY : SyntaxAnalyzer/Parsers/WhileParser.cpp.i
+
+SyntaxAnalyzer/Parsers/WhileParser.s: SyntaxAnalyzer/Parsers/WhileParser.cpp.s
+
+.PHONY : SyntaxAnalyzer/Parsers/WhileParser.s
+
+# target to generate assembly for a file
+SyntaxAnalyzer/Parsers/WhileParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.s
+.PHONY : SyntaxAnalyzer/Parsers/WhileParser.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +638,57 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Compiler"
+	@echo "... LexicalAnalyzer/lexical_analyzer.o"
+	@echo "... LexicalAnalyzer/lexical_analyzer.i"
+	@echo "... LexicalAnalyzer/lexical_analyzer.s"
+	@echo "... SyntaxAnalyzer/Parser.o"
+	@echo "... SyntaxAnalyzer/Parser.i"
+	@echo "... SyntaxAnalyzer/Parser.s"
+	@echo "... SyntaxAnalyzer/Parsers/ArithmeticParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/ArithmeticParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/ArithmeticParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/AtomParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/AtomParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/AtomParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/BreakParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/BreakParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/BreakParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/ComparisonParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/ComparisonParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/ComparisonParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/CondParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/CondParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/CondParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/ElementParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/ElementParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/ElementParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/FuncParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/FuncParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/FuncParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/LambdaParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/LambdaParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/LambdaParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/ListParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/ListParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/ListParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/LiteralParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/LiteralParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/LiteralParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/OperationOnListParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/OperationOnListParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/OperationOnListParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/ProgParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/ProgParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/ProgParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/ReturnParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/ReturnParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/ReturnParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/SetqParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/SetqParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/SetqParser.s"
+	@echo "... SyntaxAnalyzer/Parsers/WhileParser.o"
+	@echo "... SyntaxAnalyzer/Parsers/WhileParser.i"
+	@echo "... SyntaxAnalyzer/Parsers/WhileParser.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

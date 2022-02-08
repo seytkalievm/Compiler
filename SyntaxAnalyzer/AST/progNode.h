@@ -1,7 +1,7 @@
 #include <SyntaxAnalyzer/AST/elementNode.h>
 #include <SyntaxAnalyzer/AST/listNode.h>
 
-class progNode: elementNode {
+class progNode: public elementNode {
 public:
     listNode List;
     elementNode Element;

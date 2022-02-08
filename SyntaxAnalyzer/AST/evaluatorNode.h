@@ -1,7 +1,7 @@
 #include <SyntaxAnalyzer/AST/elementNode.h>
 #include <string>
 
-class evaluatorNode: elementNode {
+class evaluatorNode: public elementNode {
 public:
     elementNode Element;
 };

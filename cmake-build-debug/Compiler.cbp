@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/LexicalAnalyzer/lexical_analyzer.cpp">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/LexicalAnalyzer/lexical_analyzer.h">
 			<Option target="Compiler"/>
 		</Unit>
@@ -127,7 +130,7 @@
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/AST/operationListNode.h">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/AST/predicates.h">
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/AST/predicatesNode.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/AST/progNode.h">
@@ -148,13 +151,100 @@
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/AST/whileNode.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ArithmeticParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/AtomParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/AtomParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/BreakParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/BreakParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ComparisonParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ComparisonParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/CondParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/CondParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ElementParser.cpp">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ElementParser.h">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/quoteParser.h">
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/FuncParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/FuncParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LambdaParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LambdaParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ListParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ListParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/OperationOnListParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ProgParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ProgParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ReturnParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ReturnParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/SetqParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/SetqParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/WhileParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/WhileParser.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/node.h">

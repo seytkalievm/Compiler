@@ -4,7 +4,9 @@
 #define COMPILER_NODE_H
 
 class Node {
+public:
     Token token;
+
     void SetToken(Token token) {
         this->token = token;
     }

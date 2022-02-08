@@ -2,15 +2,20 @@
 #include <SyntaxAnalyzer/AST/literalNode.h>
 #include <string>
 
-class atomNode: elementNode {
+#ifndef COMPILER_ATOM_H
+#define COMPILER_ATOM_H
+
+class atomNode: public elementNode {
 public:
-    string name;
+    std::string name;
     literalNode literal;
 
-    void SetName(string name) {
-        this.name = name;
+    void SetName(std::string name) {
+        this->name = name;
     }
     void SetLiteral(literalNode x) {
         literal = x;
     }
 };
+
+#endif

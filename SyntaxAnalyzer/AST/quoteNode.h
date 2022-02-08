@@ -1,6 +1,6 @@
 #include <SyntaxAnalyzer/AST/elementNode.h>
 
-class quoteNode: elementNode {
+class quoteNode: public elementNode {
 public:
     elementNode Element;
 

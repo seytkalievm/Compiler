@@ -1,6 +1,6 @@
 #include <SyntaxAnalyzer/AST/elementNode.h>
 
-class returnNode: elementNode {
+class returnNode: public elementNode {
 public:
     elementNode Element;
 

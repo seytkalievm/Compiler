@@ -14,9 +14,10 @@ using namespace std;
 
 int main() {
     ifstream sourcecode ("sourcecode.txt");
-    vector<Token> tokenList = Analyze(sourcecode);
-    Parser parser;
-    parser.ProgramParse(tokenList);
+    LexicalAnalyzer lexicalAnalyzer;
+    vector<Token> tokenList = lexicalAnalyzer.Analyze(sourcecode);
+    //Parser parser;
+    //parser.ProgramParse(tokenList);
     return 0;
 }
 
