@@ -193,6 +193,12 @@
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ElementParser.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/EvalParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/EvalParser.h">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/FuncParser.cpp">
 			<Option target="Compiler"/>
 		</Unit>
@@ -211,10 +217,22 @@
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ListParser.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralListParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralListParser.h">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralParser.cpp">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LogicalOpParser.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp">
@@ -223,10 +241,22 @@
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/OperationOnListParser.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/PredicatesParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/PredicatesParser.h">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ProgParser.cpp">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ProgParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/QuoteParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/QuoteParser.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ReturnParser.cpp">

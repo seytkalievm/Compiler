@@ -1,6 +1,7 @@
 #include <SyntaxAnalyzer/Parsers/ProgParser.h>
 #include <SyntaxAnalyzer/Parsers/ListParser.h>
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
+#include <SyntaxAnalyzer/Parsers/LiteralListParser.h>
 #include <SyntaxAnalyzer/Parser.h>
 
 progNode ProgParser::Parse(Parser *parser, int *tokenNumber) {
@@ -10,8 +11,8 @@ progNode ProgParser::Parse(Parser *parser, int *tokenNumber) {
     if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
         parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
     }
-    ListParser listParser;
-    prog_node.SetList(listParser.Parse(parser, tokenNumber));
+    LiteralListParser literalListParser;
+    prog_node.SetList(literalListParser.Parse(parser, tokenNumber));
     ElementParser elementParser;
     prog_node.SetElement(elementParser.Parse(parser, tokenNumber));
     return prog_node;

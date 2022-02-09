@@ -1,79 +1,87 @@
+#include "QuoteParser.h"
+#include "SetqParser.h"
+#include "FuncParser.h"
+#include "LambdaParser.h"
+#include "ProgParser.h"
+#include "CondParser.h"
+#include "WhileParser.h"
+#include "ReturnParser.h"
+#include "BreakParser.h"
+#include "ArithmeticParser.h"
+#include "OperationOnListParser.h"
+#include "ComparisonParser.h"
+#include "PredicatesParser.h"
+#include "LogicalOpParser.h"
+#include "EvalParser.h"
+#include "ElementParser.h"
+#include "LiteralListParser.h"
 #include <SyntaxAnalyzer/Parsers/ListParser.h>
 #include <SyntaxAnalyzer/Parser.h>
 
-listNode ListParser::Parse(Parser *parser, int *tokenNumber){
-    tokenNumber ++;
+elementNode ListParser::Parse(Parser *parser, int *tokenNumber){
+    (*tokenNumber) ++;
     Token currentToken = parser->GetToken(*tokenNumber);
-    listNode list_node;
+    elementNode element_node;
+
     if (currentToken.code == tokQuote) {
-
+        QuoteParser quoteParser;
+        element_node = quoteParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokSetq) {
-
+        SetqParser setqParser;
+        element_node = setqParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokFunc) {
-
+        FuncParser funcParser;
+        element_node = funcParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokLambda) {
-
+        LambdaParser lambdaParser;
+        element_node = lambdaParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokProg) {
-
-    } else if (currentToken.code == tokQuote) {
-
+        ProgParser progParser;
+        element_node = progParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokCond) {
-
+        CondParser condParser;
+        element_node = condParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokWhile) {
-
+        WhileParser whileParser;
+        element_node = whileParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokReturn) {
-
+        ReturnParser returnParser;
+        element_node = returnParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokBreak) {
-
-    } else if (currentToken.code == tokPlus) {
-
-    } else if (currentToken.code == tokMinus) {
-
-    } else if (currentToken.code == tokTimes) {
-
-    } else if (currentToken.code == tokDivide) {
-
-    } else if (currentToken.code == tokHead) {
-
-    } else if (currentToken.code == tokTail) {
-
-    } else if (currentToken.code == tokCons) {
-
-    } else if (currentToken.code == tokEqual) {
-
-    } else if (currentToken.code == tokNonEqual) {
-
-    } else if (currentToken.code == tokLess) {
-
-    } else if (currentToken.code == tokLessEq) {
-
-    } else if (currentToken.code == tokGreater) {
-
-    } else if (currentToken.code == tokGreaterEq) {
-
-    } else if (currentToken.code == tokIsBool) {
-
-    } else if (currentToken.code == tokIsAtom) {
-
-    } else if (currentToken.code == tokIsList) {
-
-    } else if (currentToken.code == tokIsNull) {
-
-    } else if (currentToken.code == tokIsReal) {
-
-    } else if (currentToken.code == tokIsInt) {
-
-    } else if (currentToken.code == tokAnd) {
-
-    } else if (currentToken.code == tokOr) {
-
-    } else if (currentToken.code == tokXor) {
-
-    } else if (currentToken.code == tokNot) {
-
+        BreakParser breakParser;
+        element_node = breakParser.Parse(parser, tokenNumber);
+    } else if (currentToken.code == tokPlus || currentToken.code == tokMinus ||
+                            currentToken.code == tokTimes || currentToken.code == tokDivide) {
+        ArithmeticParser arithmeticParser;
+        element_node = arithmeticParser.Parse(parser, tokenNumber);
+    } else if (currentToken.code == tokHead || currentToken.code == tokTail || currentToken.code == tokCons) {
+        OperationOnListParser operationOnListParser;
+        element_node = operationOnListParser.Parse(parser, tokenNumber);
+    } else if (currentToken.code == tokEqual || currentToken.code == tokNonEqual
+                    || currentToken.code == tokLess || currentToken.code == tokLessEq
+                                || currentToken.code == tokGreater || currentToken.code == tokGreaterEq) {
+        ComparisonParser comparisonParser;
+        element_node = comparisonParser.Parse(parser, tokenNumber);
+    } else if (currentToken.code == tokIsBool || currentToken.code == tokIsAtom
+                    || currentToken.code == tokIsList || currentToken.code == tokIsNull
+                            || currentToken.code == tokIsReal || currentToken.code == tokIsInt) {
+        PredicatesParser predicatesParser;
+        element_node = predicatesParser.Parse(parser, tokenNumber);
+    } else if (currentToken.code == tokAnd || currentToken.code == tokOr
+                    || currentToken.code == tokXor || currentToken.code == tokNot) {
+        LogicalOpParser logicalOpParser;
+        element_node = logicalOpParser.Parse(parser, tokenNumber);
     } else if (currentToken.code == tokEval) {
-
+        EvalParser evalParser;
+        element_node = evalParser.Parse(parser, tokenNumber);
+    } else {
+        LiteralListParser literalListParser;
+        element_node = literalListParser.Parse(parser, tokenNumber);
     }
 
-    return list_node;
+    if (parser->GetToken(*tokenNumber).code != tokCloseParenthesis) {
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
+    }
+    (*tokenNumber) ++;
+    return element_node;
 }

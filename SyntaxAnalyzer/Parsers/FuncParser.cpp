@@ -2,6 +2,7 @@
 #include <SyntaxAnalyzer/Parsers/AtomParser.h>
 #include <SyntaxAnalyzer/Parsers/ListParser.h>
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
+#include <SyntaxAnalyzer/Parsers/LiteralListParser.h>
 #include <SyntaxAnalyzer/Parser.h>
 
 funcNode FuncParser::Parse(Parser *parser, int *tokenNumber) {
@@ -16,8 +17,8 @@ funcNode FuncParser::Parse(Parser *parser, int *tokenNumber) {
     if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
         parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
     }
-    ListParser listParser;
-    func_node.SetList(listParser.Parse(parser, tokenNumber));
+    LiteralListParser literalListParser;
+    func_node.SetList(literalListParser.Parse(parser, tokenNumber));
     ElementParser elementParser;
     func_node.SetElement(elementParser.Parse(parser, tokenNumber));
     return func_node;

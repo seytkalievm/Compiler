@@ -311,6 +311,71 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ComparisonParser.cpp -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.s
 
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o: ../SyntaxAnalyzer/Parsers/PredicatesParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/diazzzu/Desktop/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o -c /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/PredicatesParser.cpp
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/PredicatesParser.cpp > CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.i
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/PredicatesParser.cpp -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.s
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o: ../SyntaxAnalyzer/Parsers/LogicalOpParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/diazzzu/Desktop/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o -c /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp > CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.i
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.s
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o: ../SyntaxAnalyzer/Parsers/EvalParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/diazzzu/Desktop/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o -c /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/EvalParser.cpp
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/EvalParser.cpp > CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.i
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/EvalParser.cpp -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.s
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o: ../SyntaxAnalyzer/Parsers/QuoteParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/diazzzu/Desktop/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o -c /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/QuoteParser.cpp
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/QuoteParser.cpp > CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.i
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/QuoteParser.cpp -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.s
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o: ../SyntaxAnalyzer/Parsers/LiteralListParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/diazzzu/Desktop/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o -c /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralListParser.cpp
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralListParser.cpp > CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.i
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/LiteralListParser.cpp -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.s
+
 # Object files for target Compiler
 Compiler_OBJECTS = \
 "CMakeFiles/Compiler.dir/main.cpp.o" \
@@ -330,7 +395,12 @@ Compiler_OBJECTS = \
 "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o" \
 "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o" \
 "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o" \
-"CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o"
+"CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o" \
+"CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o" \
+"CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o" \
+"CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o" \
+"CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o" \
+"CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o"
 
 # External object files for target Compiler
 Compiler_EXTERNAL_OBJECTS =
@@ -353,9 +423,14 @@ Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o
 Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o
 Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o
 Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o
+Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o
+Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o
+Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o
+Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o
+Compiler: CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o
 Compiler: CMakeFiles/Compiler.dir/build.make
 Compiler: CMakeFiles/Compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/diazzzu/Desktop/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable Compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/diazzzu/Desktop/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable Compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
