@@ -1,1 +1,5 @@
-(plus (fibonacci (minus N 1)) (fibonacci (minus N 2)))))
+5
+5
+4
+3
+2

@@ -5,9 +5,9 @@ rootNode Parser::ProgramParse(std::vector<Token> List) {
     tokenList = List;
     rootNode root = rootNode();
     int tokenNumber = 0;
-    while (1) {
+    while (tokenNumber < List.size()) {
         ElementParser elementParser;
-        elementParser.Parse(*this, &tokenNumber);
+        root.AddNode(elementParser.Parse(this, &tokenNumber));
     }
     return root;
 }

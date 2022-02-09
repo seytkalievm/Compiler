@@ -7,7 +7,7 @@ class Parser;
 
 class ListParser {
 public:
-    listNode Parse(Parser parser, int *tokenNumber);
+    listNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_LISTPARSER_H

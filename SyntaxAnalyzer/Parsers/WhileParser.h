@@ -7,7 +7,7 @@ class Parser;
 
 class WhileParser {
 public:
-    whileNode Parse(Parser parser, int *tokenNumber);
+    whileNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_WHILEPARSER_H

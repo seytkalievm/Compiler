@@ -7,7 +7,7 @@ class Parser;
 
 class FuncParser {
 public:
-    funcNode Parse(Parser parser, int *tokenNumber);
+    funcNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_FUNCPARSER_H

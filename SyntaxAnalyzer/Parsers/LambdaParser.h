@@ -7,7 +7,7 @@ class Parser;
 
 class LambdaParser {
 public:
-    lambdaNode Parse(Parser parser, int *tokenNumber);
+    lambdaNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_LAMBDAPARSER_H

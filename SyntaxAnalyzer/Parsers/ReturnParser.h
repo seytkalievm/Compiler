@@ -7,7 +7,7 @@ class Parser;
 
 class ReturnParser {
 public:
-    returnNode Parse(Parser parser, int *tokenNumber);
+    returnNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_RETURNPARSER_H

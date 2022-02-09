@@ -14,6 +14,17 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parser.cpp.o: ../SyntaxAnalyzer/Parsers/E
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parser.cpp.o: ../SyntaxAnalyzer/node.h
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parser.cpp.o: ../SyntaxAnalyzer/Parser.cpp
 
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../LexicalAnalyzer/lexical_analyzer.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../Resources/tokens.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../SyntaxAnalyzer/AST/arithmeticNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../SyntaxAnalyzer/AST/elementNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../SyntaxAnalyzer/AST/rootNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../SyntaxAnalyzer/Parser.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../SyntaxAnalyzer/Parsers/ElementParser.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../SyntaxAnalyzer/node.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../SyntaxAnalyzer/Parsers/ArithmeticParser.cpp
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: ../SyntaxAnalyzer/Parsers/ArithmeticParser.h
+
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o: ../LexicalAnalyzer/lexical_analyzer.h
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o: ../Resources/tokens.h
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o: ../SyntaxAnalyzer/AST/atomNode.h
@@ -35,6 +46,17 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o: ../SyntaxAnaly
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o: ../SyntaxAnalyzer/node.h
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o: ../SyntaxAnalyzer/Parsers/BreakParser.cpp
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o: ../SyntaxAnalyzer/Parsers/BreakParser.h
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../LexicalAnalyzer/lexical_analyzer.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../Resources/tokens.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../SyntaxAnalyzer/AST/comparisonNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../SyntaxAnalyzer/AST/elementNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../SyntaxAnalyzer/AST/rootNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../SyntaxAnalyzer/Parser.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../SyntaxAnalyzer/Parsers/ElementParser.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../SyntaxAnalyzer/node.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../SyntaxAnalyzer/Parsers/ComparisonParser.cpp
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: ../SyntaxAnalyzer/Parsers/ComparisonParser.h
 
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o: ../LexicalAnalyzer/lexical_analyzer.h
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o: ../Resources/tokens.h
@@ -110,6 +132,17 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o: ../SyntaxAna
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o: ../SyntaxAnalyzer/Parsers/LiteralParser.h
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o: ../SyntaxAnalyzer/node.h
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o: ../SyntaxAnalyzer/Parsers/LiteralParser.cpp
+
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../LexicalAnalyzer/lexical_analyzer.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../Resources/tokens.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../SyntaxAnalyzer/AST/elementNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../SyntaxAnalyzer/AST/operationListNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../SyntaxAnalyzer/AST/rootNode.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../SyntaxAnalyzer/Parser.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../SyntaxAnalyzer/Parsers/ElementParser.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../SyntaxAnalyzer/node.h
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../SyntaxAnalyzer/Parsers/OperationOnListParser.cpp
+CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: ../SyntaxAnalyzer/Parsers/OperationOnListParser.h
 
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o: ../LexicalAnalyzer/lexical_analyzer.h
 CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o: ../Resources/tokens.h

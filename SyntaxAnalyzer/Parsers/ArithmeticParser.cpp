@@ -2,9 +2,9 @@
 #include <SyntaxAnalyzer/Parser.h>
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
 
-arithmeticNode ArithmeticParser::Parse(Parser parser, int *tokenNumber) {
+arithmeticNode ArithmeticParser::Parse(Parser *parser, int *tokenNumber) {
     arithmeticNode arithmetic_node;
-    Token curToken = parser.GetToken(*tokenNumber);
+    Token curToken = parser->GetToken(*tokenNumber);
     arithmetic_node.SetToken(curToken);
     (*tokenNumber) ++;
 

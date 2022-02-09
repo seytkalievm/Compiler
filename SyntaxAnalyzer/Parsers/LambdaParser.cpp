@@ -3,12 +3,12 @@
 #include <SyntaxAnalyzer/Parsers/ListParser.h>
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
 
-lambdaNode LambdaParser::Parse(Parser parser, int *tokenNumber) {
+lambdaNode LambdaParser::Parse(Parser *parser, int *tokenNumber) {
     lambdaNode lambda_node;
-    lambda_node.SetToken(parser.GetToken(*tokenNumber));
+    lambda_node.SetToken(parser->GetToken(*tokenNumber));
     (*tokenNumber) ++;
-    if (parser.GetToken(*tokenNumber).code != tokOpenParenthesis) {
-        parser.ErrorMessage(parser.GetToken(*tokenNumber).line, parser.GetToken(*tokenNumber).position);
+    if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
     }
     ListParser listParser;
     lambda_node.SetList(listParser.Parse(parser, tokenNumber));

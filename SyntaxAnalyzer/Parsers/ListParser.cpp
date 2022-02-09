@@ -1,9 +1,9 @@
 #include <SyntaxAnalyzer/Parsers/ListParser.h>
 #include <SyntaxAnalyzer/Parser.h>
 
-listNode ListParser::Parse(Parser parser, int *tokenNumber){
+listNode ListParser::Parse(Parser *parser, int *tokenNumber){
     tokenNumber ++;
-    Token currentToken = parser.GetToken(*tokenNumber);
+    Token currentToken = parser->GetToken(*tokenNumber);
     listNode list_node;
     if (currentToken.code == tokQuote) {
 

@@ -7,7 +7,7 @@ class Parser;
 
 class ProgParser {
 public:
-    progNode Parse(Parser parser, int *tokenNumber);
+    progNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_PROGPARSER_H

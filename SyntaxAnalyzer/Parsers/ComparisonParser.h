@@ -7,7 +7,7 @@ class Parser;
 
 class ComparisonParser {
 public:
-    comparisonNode Parse(Parser parser, int *tokenNumber);
+    comparisonNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_COMPARISONPARSER_H

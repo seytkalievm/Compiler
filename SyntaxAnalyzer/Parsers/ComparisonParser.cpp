@@ -2,9 +2,9 @@
 #include <SyntaxAnalyzer/Parser.h>
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
 
-comparisonNode ComparisonParser::Parse(Parser parser, int *tokenNumber) {
+comparisonNode ComparisonParser::Parse(Parser *parser, int *tokenNumber) {
     comparisonNode comparison_node;
-    Token curToken = parser.GetToken(*tokenNumber);
+    Token curToken = parser->GetToken(*tokenNumber);
     comparison_node.SetToken(curToken);
     (*tokenNumber) ++;
 

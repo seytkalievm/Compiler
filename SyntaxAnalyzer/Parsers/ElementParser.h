@@ -14,7 +14,7 @@ class Parser;
 
 class ElementParser {
 public:
-    elementNode Parse(Parser parser, int *tokenNumber);
+    elementNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif

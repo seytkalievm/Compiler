@@ -4,17 +4,17 @@
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
 #include <SyntaxAnalyzer/Parser.h>
 
-funcNode FuncParser::Parse(Parser parser, int *tokenNumber) {
+funcNode FuncParser::Parse(Parser *parser, int *tokenNumber) {
     funcNode func_node;
-    func_node.SetToken(parser.GetToken(*tokenNumber));
+    func_node.SetToken(parser->GetToken(*tokenNumber));
     (*tokenNumber) ++;
-    if (parser.GetToken(*tokenNumber).code != tokAtom) {
-        parser.ErrorMessage(parser.GetToken(*tokenNumber).line, parser.GetToken(*tokenNumber).position);
+    if (parser->GetToken(*tokenNumber).code != tokAtom) {
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
     }
     AtomParser atomParser;
     func_node.SetAtom(atomParser.Parse(parser, tokenNumber));
-    if (parser.GetToken(*tokenNumber).code != tokOpenParenthesis) {
-        parser.ErrorMessage(parser.GetToken(*tokenNumber).line, parser.GetToken(*tokenNumber).position);
+    if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
     }
     ListParser listParser;
     func_node.SetList(listParser.Parse(parser, tokenNumber));

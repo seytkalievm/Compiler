@@ -7,7 +7,7 @@ class Parser;
 
 class CondParser {
 public:
-    condNode Parse(Parser parser, int *tokenNumber);
+    condNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_CONDPARSER_H

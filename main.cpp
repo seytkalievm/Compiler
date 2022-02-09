@@ -14,10 +14,13 @@ using namespace std;
 
 int main() {
     ifstream sourcecode ("sourcecode.txt");
+
     LexicalAnalyzer lexicalAnalyzer;
     vector<Token> tokenList = lexicalAnalyzer.Analyze(sourcecode);
-    //Parser parser;
-    //parser.ProgramParse(tokenList);
+
+    Parser parser;
+    rootNode root = parser.ProgramParse(tokenList);
+    cout << root.nodes.size();
     return 0;
 }
 

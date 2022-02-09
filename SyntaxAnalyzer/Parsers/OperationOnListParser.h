@@ -7,7 +7,7 @@ class Parser;
 
 class OperationOnListParser {
 public:
-    operationListNode Parse(Parser parser, int *tokenNumber);
+    operationListNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_OPERATIONONLISTPARSER_H

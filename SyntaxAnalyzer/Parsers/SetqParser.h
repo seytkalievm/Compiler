@@ -7,7 +7,7 @@ class Parser;
 
 class SetqParser {
 public:
-    setqNode Parse(Parser parser, int *tokenNumber);
+    setqNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_SETQPARSER_H

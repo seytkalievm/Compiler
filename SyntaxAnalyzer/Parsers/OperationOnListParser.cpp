@@ -2,9 +2,9 @@
 #include <SyntaxAnalyzer/Parser.h>
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
 
-operationListNode OperationOnListParser::Parse(Parser parser, int *tokenNumber) {
+operationListNode OperationOnListParser::Parse(Parser *parser, int *tokenNumber) {
     operationListNode operation_list_node;
-    Token curToken = parser.GetToken(*tokenNumber);
+    Token curToken = parser->GetToken(*tokenNumber);
     operation_list_node.SetToken(curToken);
     (*tokenNumber) ++;
 

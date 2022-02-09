@@ -7,7 +7,7 @@ class Parser;
 
 class LiteralParser {
 public:
-    literalNode Parse(Parser parser, int *tokenNumber);
+    literalNode Parse(Parser *parser, int *tokenNumber);
 };
 
 #endif //COMPILER_LITERALPARSER_H
