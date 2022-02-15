@@ -14,12 +14,17 @@ using namespace std;
 
 void NodeWriter(Node root, string indent = "") {
     if (indent == "") {
-        cout << "root\n";
+        cout << "root|\n";
+        indent += "    |";
     } else {
-        cout << indent << Code(root.token.code) << '\n';
+        cout << indent << Code(root.token.code) << "|" << '\n';
+        for (int i = 1; i <= to_string(root.token.code).size(); i++) {
+            indent += " ";
+        }
+        indent += "|";
     }
     for (auto child : root.children) {
-        NodeWriter(child, indent + "  ");
+        NodeWriter(child, indent);
     }
 }
 
