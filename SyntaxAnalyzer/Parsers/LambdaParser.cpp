@@ -9,7 +9,7 @@ lambdaNode LambdaParser::Parse(Parser *parser, int *tokenNumber) {
     lambda_node.SetToken(parser->GetToken(*tokenNumber));
     (*tokenNumber) ++;
     if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
-        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
     LiteralListParser literalListParser;
     lambda_node.SetList(literalListParser.Parse(parser, tokenNumber));

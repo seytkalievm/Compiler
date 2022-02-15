@@ -3,12 +3,10 @@
 
 class operationListNode: public elementNode {
 public:
-    elementNode Element1;
-    elementNode Element2;
     void SetElement1(elementNode value) {
-        Element1 = value;
+        AddChild(value);
     }
     void SetElement2(elementNode value) {
-        Element2 = value;
+        AddChild(value);
     }
 };

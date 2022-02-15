@@ -3,13 +3,10 @@
 
 class progNode: public elementNode {
 public:
-    listNode List;
-    elementNode Element;
-
     void SetList(listNode value) {
-        List = value;
+        AddChild(value);
     }
     void SetElement(elementNode value) {
-        Element = value;
+        AddChild(value);
     }
 };

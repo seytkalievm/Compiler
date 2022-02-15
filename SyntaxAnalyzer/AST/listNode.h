@@ -7,12 +7,8 @@
 
 class listNode: public elementNode {
 public:
-    std::vector <elementNode> Elements;
-    listNode() {
-        Elements = std::vector <elementNode>();
-    }
     void AddElement(elementNode element) {
-        Elements.push_back(element);
+        AddChild(element);
     }
 };
 

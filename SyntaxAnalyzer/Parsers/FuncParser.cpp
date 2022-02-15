@@ -10,12 +10,12 @@ funcNode FuncParser::Parse(Parser *parser, int *tokenNumber) {
     func_node.SetToken(parser->GetToken(*tokenNumber));
     (*tokenNumber) ++;
     if (parser->GetToken(*tokenNumber).code != tokAtom) {
-        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
     AtomParser atomParser;
     func_node.SetAtom(atomParser.Parse(parser, tokenNumber));
     if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
-        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
     LiteralListParser literalListParser;
     func_node.SetList(literalListParser.Parse(parser, tokenNumber));

@@ -3,13 +3,10 @@
 
 class setqNode: public elementNode {
 public:
-    atomNode Atom;
-    elementNode Element;
-
     void SetAtom(atomNode value){
-        Atom = value;
+        AddChild(value);
     }
     void SetElement(elementNode value){
-        Element = value;
+        AddChild(value);
     }
 };

@@ -9,7 +9,7 @@ setqNode SetqParser::Parse(Parser *parser, int *tokenNumber) {
     (*tokenNumber) ++;
     AtomParser atomParser;
     if (parser->GetToken(*tokenNumber).code != tokAtom) {
-        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
     setq_node.SetAtom(atomParser.Parse(parser, tokenNumber));
     ElementParser elementParser;

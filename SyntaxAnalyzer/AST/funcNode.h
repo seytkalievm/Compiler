@@ -4,17 +4,13 @@
 
 class funcNode: public elementNode {
 public:
-    atomNode Atom;
-    listNode List;
-    elementNode Element;
-
     void SetAtom(atomNode value) {
-        Atom = value;
+        AddChild(value);
     }
     void SetList(listNode value) {
-        List = value;
+        AddChild(value);
     }
     void SetElement(elementNode value) {
-        Element = value;
+        AddChild(value);
     }
 };

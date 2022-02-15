@@ -13,7 +13,7 @@
 class Parser {
     std::vector<Token> tokenList;
 public:
-    rootNode ProgramParse(std::vector<Token> List);
+    Node ProgramParse(std::vector<Token> List);
     Token GetToken(int tokenNumber);
     void ErrorMessage(int line, int position);
 };

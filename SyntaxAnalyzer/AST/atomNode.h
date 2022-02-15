@@ -7,14 +7,8 @@
 
 class atomNode: public elementNode {
 public:
-    std::string name;
-    literalNode literal;
-
-    void SetName(std::string name) {
-        this->name = name;
-    }
-    void SetLiteral(literalNode x) {
-        literal = x;
+    void SetValue(elementNode x) {
+        AddChild(x);
     }
 };
 

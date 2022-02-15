@@ -9,7 +9,7 @@ progNode ProgParser::Parse(Parser *parser, int *tokenNumber) {
     prog_node.SetToken(parser->GetToken(*tokenNumber));
     (*tokenNumber) ++;
     if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
-        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
     LiteralListParser literalListParser;
     prog_node.SetList(literalListParser.Parse(parser, tokenNumber));

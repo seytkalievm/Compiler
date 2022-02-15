@@ -80,7 +80,7 @@ elementNode ListParser::Parse(Parser *parser, int *tokenNumber){
     }
 
     if (parser->GetToken(*tokenNumber).code != tokCloseParenthesis) {
-        parser->ErrorMessage(parser->GetToken(*tokenNumber).line, parser->GetToken(*tokenNumber).position);
+        parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
     (*tokenNumber) ++;
     return element_node;

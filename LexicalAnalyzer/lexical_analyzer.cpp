@@ -19,8 +19,8 @@ Token LexicalAnalyzer::getNextToken(std::ifstream *file, int *curLine, int *curP
         file->get(c);
     }
 
-    token.position = *curPos;
-    token.line = *curLine;
+    token.location.position = *curPos;
+    token.location.line = *curLine;
     if (file->peek() == EOF) {
         token.code = tokEndFile;
         return token;
@@ -130,24 +130,24 @@ Token LexicalAnalyzer::getNextToken(std::ifstream *file, int *curLine, int *curP
         }
         if (real) {
             token.code = tokReal;
-            token.realVal = stod(tokenLetters);
+            token.value.realVal = stod(tokenLetters);
         } else if (integer) {
             token.code = tokInt;
-            token.intVal = stoi(tokenLetters);
+            token.value.intVal = stoi(tokenLetters);
         } else {
             token.code = tokAtom;
-            token.atomVal = tokenLetters;
+            token.value.atomVal = tokenLetters;
         }
     } else {
         if (tokenLetters == "nill") {
             token.code = tokBoolean;
-            token.boolVal = false;
+            token.value.boolVal = false;
         } else if (tokenLetters == "t") {
             token.code = tokBoolean;
-            token.boolVal = true;
+            token.value.boolVal = true;
         } else {
             token.code = tokAtom;
-            token.atomVal = tokenLetters;
+            token.value.atomVal = tokenLetters;
         }
     }
     return token;

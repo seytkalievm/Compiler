@@ -2,9 +2,7 @@
 
 class quoteNode: public elementNode {
 public:
-    elementNode Element;
-
     void SetElement(elementNode value) {
-        Element = value;
+        AddChild(value);
     }
 };

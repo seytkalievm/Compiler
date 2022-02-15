@@ -12,6 +12,17 @@ using namespace std;
 #ifndef COMPILER_MAIN_H
 #define COMPILER_MAIN_H
 
+void NodeWriter(Node root, string indent = "") {
+    if (indent == "") {
+        cout << "root\n";
+    } else {
+        cout << indent << Code(root.token.code) << '\n';
+    }
+    for (auto child : root.children) {
+        NodeWriter(child, indent + "  ");
+    }
+}
+
 int main() {
     ifstream sourcecode ("sourcecode.txt");
 
@@ -19,8 +30,8 @@ int main() {
     vector<Token> tokenList = lexicalAnalyzer.Analyze(sourcecode);
 
     Parser parser;
-    rootNode root = parser.ProgramParse(tokenList);
-    cout << root.nodes.size();
+    Node root = parser.ProgramParse(tokenList);
+    NodeWriter(root);
     return 0;
 }
 

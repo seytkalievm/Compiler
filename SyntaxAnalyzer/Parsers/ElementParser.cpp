@@ -16,6 +16,6 @@ elementNode ElementParser::Parse(Parser *parser, int *tokenNumber) {
         LiteralParser literalParser;
         return literalParser.Parse(parser, tokenNumber);
     } else {
-        parser->ErrorMessage(elementType.line, elementType.position);
+        parser->ErrorMessage(elementType.location.line, elementType.location.position);
     }
 }

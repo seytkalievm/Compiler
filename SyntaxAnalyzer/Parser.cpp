@@ -1,20 +1,20 @@
 #include <SyntaxAnalyzer/Parser.h>
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
 
-rootNode Parser::ProgramParse(std::vector<Token> List) {
+Node Parser::ProgramParse(std::vector<Token> List) {
     tokenList = List;
-    rootNode root = rootNode();
+    Node root = Node();
     int tokenNumber = 0;
     while (tokenNumber < List.size()) {
         ElementParser elementParser;
-        root.AddNode(elementParser.Parse(this, &tokenNumber));
+        root.AddChild(elementParser.Parse(this, &tokenNumber));
     }
     return root;
 }
 
 Token Parser::GetToken(int tokenNumber) {
     if (tokenNumber >= tokenList.size()) {
-        ErrorMessage(tokenList.back().line, tokenList.back().position);
+        ErrorMessage(tokenList.back().location.line, tokenList.back().location.position);
         return tokenList.back();
     }
     return tokenList[tokenNumber];

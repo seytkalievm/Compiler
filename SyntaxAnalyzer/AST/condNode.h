@@ -2,17 +2,13 @@
 
 class condNode: public elementNode {
 public:
-    elementNode Element1;
-    elementNode Element2;
-    elementNode Element3;
-
     void SetElement1(elementNode value) {
-        Element1 = value;
+        AddChild(value);
     }
     void SetElement2(elementNode value) {
-        Element2 = value;
+        AddChild(value);
     }
     void SetElement3(elementNode value) {
-        Element3 = value;
+        AddChild(value);
     }
 };
