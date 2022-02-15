@@ -3,15 +3,11 @@
 Token LexicalAnalyzer::getNextToken(std::ifstream *file, int *curLine, int *curPos) {
     Token token;
     char c;
-    int startPos = 0;
-    int endPos = 0;
 
     std::string tokenLetters = "";
 
     while (file->peek() == ' ' || file->peek() == '\n') {
-        startPos++;
-        endPos++;
-        curPos++;
+        (*curPos) ++;
         if (file->peek() == '\n') {
             (*curPos) = 1;
             (*curLine)++;
@@ -26,6 +22,7 @@ Token LexicalAnalyzer::getNextToken(std::ifstream *file, int *curLine, int *curP
         return token;
     }
 
+    (*curPos) ++;
     tokenLetters += file->get();
 
     if (tokenLetters != "(" && tokenLetters != ")" && tokenLetters != "[" && tokenLetters != "]" &&
@@ -33,8 +30,7 @@ Token LexicalAnalyzer::getNextToken(std::ifstream *file, int *curLine, int *curP
         while (file->peek() != ' ' && file->peek() != '(' && file->peek() != ')' && file->peek() != '[' &&
                file->peek() != ']' && file->peek() != EOF && file->peek() != '\n') {
             tokenLetters += file->get();
-            endPos++;
-            curPos++;
+            (*curPos) ++;
         }
     }
 
@@ -167,5 +163,10 @@ std::vector<Token> LexicalAnalyzer::Analyze(std::ifstream &sourcecode) {
         }
     }
     sourcecode.close();
+
+    if (tokensList.back().code == tokEndFile) {
+        tokensList.pop_back();
+    }
+
     return tokensList;
 }
