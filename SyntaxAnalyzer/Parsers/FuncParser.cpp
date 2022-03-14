@@ -17,8 +17,10 @@ funcNode FuncParser::Parse(Parser *parser, int *tokenNumber) {
     if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
         parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
+    (*tokenNumber) ++;
     LiteralListParser literalListParser;
     func_node.SetList(literalListParser.Parse(parser, tokenNumber));
+    (*tokenNumber) ++;
     ElementParser elementParser;
     func_node.SetElement(elementParser.Parse(parser, tokenNumber));
     return func_node;

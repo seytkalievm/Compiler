@@ -49,7 +49,9 @@ enum Code {
     tokBoolean, // 42
     tokAtom, // 43
     tokList, // 44
-    tokEndFile // 45
+    tokRoot, // 45
+    tokEndFile, // 46
+    tokFunction // 47
 };
 
 struct Location {

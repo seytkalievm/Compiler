@@ -1,14 +1,17 @@
 #include <SyntaxAnalyzer/Parser.h>
 #include <SyntaxAnalyzer/Parsers/ElementParser.h>
 
-Node Parser::ProgramParse(std::vector<Token> List) {
+RootNode Parser::ProgramParse(std::vector<Token> List) {
     tokenList = List;
-    Node root = Node();
+    RootNode root = RootNode();
     int tokenNumber = 0;
     while (tokenNumber < List.size()) {
         ElementParser elementParser;
         root.AddChild(elementParser.Parse(this, &tokenNumber));
     }
+    Token tokenRoot;
+    tokenRoot.code = tokRoot;
+    root.SetToken(tokenRoot);
     return root;
 }
 

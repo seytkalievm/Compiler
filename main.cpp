@@ -4,7 +4,6 @@
 #include <cmath>
 
 #include <LexicalAnalyzer/lexical_analyzer.h>
-#include <SyntaxAnalyzer/AST/rootNode.h>
 #include <SyntaxAnalyzer/Parser.h>
 
 using namespace std;
@@ -33,6 +32,10 @@ int main() {
 
     LexicalAnalyzer lexicalAnalyzer;
     vector<Token> tokenList = lexicalAnalyzer.Analyze(sourcecode);
+
+    for (auto x : tokenList) {
+        //cout << x.code << ' ';
+    }
 
     Parser parser;
     Node root = parser.ProgramParse(tokenList);

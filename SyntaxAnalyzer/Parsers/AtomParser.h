@@ -1,13 +1,14 @@
-#include <SyntaxAnalyzer/AST/atomNode.h>
+#include <SyntaxAnalyzer/Parser.h>
 
 #ifndef COMPILER_ATOMPARSER_H
 #define COMPILER_ATOMPARSER_H
 
-class Parser;
-
-class AtomParser {
-public:
-    atomNode Parse(Parser *parser, int *tokenNumber);
-};
+Node* AtomParser(Parser *parser, int *tokenNumber){
+    Token atomType = parser->GetToken(*tokenNumber);
+    NodeInvocation *atom_node = new NodeInvocation();
+    (*tokenNumber) ++;
+    atom_node->setName(atomType.value.atomVal);
+    return atom_node;
+}
 
 #endif //COMPILER_ATOMPARSER_H

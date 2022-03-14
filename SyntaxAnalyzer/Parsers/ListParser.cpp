@@ -74,6 +74,15 @@ elementNode ListParser::Parse(Parser *parser, int *tokenNumber){
     } else if (currentToken.code == tokEval) {
         EvalParser evalParser;
         element_node = evalParser.Parse(parser, tokenNumber);
+    } else if (currentToken.code == tokAtom) {
+        currentToken.code = tokFunction;
+        (*tokenNumber) ++;
+        LiteralListParser literalListParser;
+        elementNode element_node_tmp = literalListParser.Parse(parser, tokenNumber);
+        element_node.SetToken(currentToken);
+        for (auto x : element_node_tmp.children) {
+            element_node.children.push_back(x);
+        }
     } else {
         LiteralListParser literalListParser;
         element_node = literalListParser.Parse(parser, tokenNumber);

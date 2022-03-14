@@ -9,7 +9,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parser.cpp.o
  ../LexicalAnalyzer/lexical_analyzer.h
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/node.h
@@ -19,7 +18,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/arithmeticNode.h
  ../SyntaxAnalyzer/AST/elementNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/node.h
@@ -32,7 +30,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/listNode.h
  ../SyntaxAnalyzer/AST/literalNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/AtomParser.h
  ../SyntaxAnalyzer/node.h
@@ -42,7 +39,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/breakNode.h
  ../SyntaxAnalyzer/AST/elementNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/node.h
  /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/BreakParser.cpp
@@ -52,7 +48,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/comparisonNode.h
  ../SyntaxAnalyzer/AST/elementNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/node.h
@@ -63,7 +58,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/condNode.h
  ../SyntaxAnalyzer/AST/elementNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/CondParser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
@@ -76,7 +70,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/listNode.h
  ../SyntaxAnalyzer/AST/literalNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/AtomParser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
@@ -89,7 +82,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/evaluatorNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/Parsers/EvalParser.h
@@ -103,7 +95,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o
  ../SyntaxAnalyzer/AST/funcNode.h
  ../SyntaxAnalyzer/AST/listNode.h
  ../SyntaxAnalyzer/AST/literalNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/AtomParser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
@@ -118,7 +109,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/lambdaNode.h
  ../SyntaxAnalyzer/AST/listNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/Parsers/LambdaParser.h
@@ -146,7 +136,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o
  ../SyntaxAnalyzer/AST/progNode.h
  ../SyntaxAnalyzer/AST/quoteNode.h
  ../SyntaxAnalyzer/AST/returnNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/AST/setqNode.h
  ../SyntaxAnalyzer/AST/whileNode.h
  ../SyntaxAnalyzer/Parser.h
@@ -175,7 +164,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/listNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/node.h
  /Users/diazzzu/Desktop/Compiler/SyntaxAnalyzer/Parsers/ElementParser.h
@@ -187,7 +175,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/listNode.h
  ../SyntaxAnalyzer/AST/literalNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/LiteralParser.h
  ../SyntaxAnalyzer/node.h
@@ -197,7 +184,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/logicalOpNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/Parsers/LogicalOpParser.h
@@ -208,7 +194,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/operationListNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/node.h
@@ -219,7 +204,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/predicatesNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/Parsers/PredicatesParser.h
@@ -231,7 +215,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/listNode.h
  ../SyntaxAnalyzer/AST/progNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/Parsers/ListParser.h
@@ -244,7 +227,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/quoteNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/Parsers/QuoteParser.h
@@ -255,7 +237,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/returnNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
  ../SyntaxAnalyzer/Parsers/ReturnParser.h
@@ -268,7 +249,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o
  ../SyntaxAnalyzer/AST/elementNode.h
  ../SyntaxAnalyzer/AST/listNode.h
  ../SyntaxAnalyzer/AST/literalNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/AST/setqNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/AtomParser.h
@@ -280,7 +260,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o
  ../LexicalAnalyzer/lexical_analyzer.h
  ../Resources/tokens.h
  ../SyntaxAnalyzer/AST/elementNode.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/AST/whileNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/Parsers/ElementParser.h
@@ -290,7 +269,6 @@ CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o
 CMakeFiles/Compiler.dir/main.cpp.o
  ../LexicalAnalyzer/lexical_analyzer.h
  ../Resources/tokens.h
- ../SyntaxAnalyzer/AST/rootNode.h
  ../SyntaxAnalyzer/Parser.h
  ../SyntaxAnalyzer/node.h
  /Users/diazzzu/Desktop/Compiler/main.cpp

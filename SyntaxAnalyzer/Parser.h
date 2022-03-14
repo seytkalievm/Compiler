@@ -4,8 +4,8 @@
 #include <cmath>
 
 #include <LexicalAnalyzer/lexical_analyzer.h>
-#include <SyntaxAnalyzer/node.h>
-#include <SyntaxAnalyzer/AST/rootNode.h>
+#include <SyntaxAnalyzer/Nodes/node.h>
+#include <SyntaxAnalyzer/Nodes/rootNode.h>
 
 #ifndef COMPILER_PARSER_H
 #define COMPILER_PARSER_H
@@ -13,7 +13,7 @@
 class Parser {
     std::vector<Token> tokenList;
 public:
-    Node ProgramParse(std::vector<Token> List);
+    RootNode ProgramParse(std::vector<Token> List);
     Token GetToken(int tokenNumber);
     void ErrorMessage(int line, int position);
 };

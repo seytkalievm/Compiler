@@ -1,12 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o"
   "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parser.cpp.o"
-  "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o"
-  "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o"
-  "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o"
-  "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o"
-  "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o"
-  "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o"
   "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o"
   "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o"
   "CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o"
