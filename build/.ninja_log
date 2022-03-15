@@ -1,0 +1,25 @@
+# ninja log v5
+1	1142	1647310042196284176	CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o	ac5de9d6eab26ff9
+3	1567	1647316281718423233	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o	3bee980a8be8635d
+3	1647	1647316281804734764	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o	c41f6292bafef6ea
+4	1747	1647316281866965315	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o	162193b5ce05b878
+4	1709	1647316281867278446	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o	7adbe4f561677d13
+3	1703	1647316281862833701	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o	4134f2c139d7d1b2
+5	1667	1647316281826830392	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o	7cc9581143ada212
+4	1670	1647316281829816865	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o	50808b81069adf14
+3	1678	1647316281838513941	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o	cc793a870bdcb99d
+3	1912	1647316282072279392	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/Parser.cpp.o	58a60944de0f861b
+1667	3301	1647316283461581188	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o	86eeba5c81bba6a5
+1709	3433	1647316283592812869	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o	c14807213a674cf0
+1678	3298	1647316283456921935	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o	939fc2344df2bb8e
+1912	3542	1647316283702845396	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o	20504f3389a75f40
+1703	3336	1647316283473517084	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o	df62deac5db918b2
+1670	3433	1647316283593032802	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o	7c7874c28caf8384
+1568	3269	1647316283424008492	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o	fc7056e490446a45
+1747	3447	1647316283607077672	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o	ab83faa5e858fbec
+1647	3300	1647316283460112160	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o	53f1a1f64a64190d
+2000	3567	1647316283729752865	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o	dcc9b860ef48ed39
+3269	4136	1647316284299996388	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o	67c717304bcf82b9
+3298	4144	1647316284309775413	CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o	6b58cd29fd1d163b
+2	2000	1647316282150124373	CMakeFiles/Compiler.dir/main.cpp.o	4b58a96e1b4d408
+4144	4204	1647316284372106700	Compiler	fac692d882430395

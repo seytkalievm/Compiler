@@ -4,26 +4,28 @@
 #include <cmath>
 
 #include <LexicalAnalyzer/lexical_analyzer.h>
-#include <SyntaxAnalyzer/Parser.h>
+#include <SyntaxAnalyzer/Parsers/Parser.h>
 
 using namespace std;
 
 #ifndef COMPILER_MAIN_H
 #define COMPILER_MAIN_H
 
-void NodeWriter(Node root, string indent = "") {
-    if (indent == "") {
-        cout << "root|\n";
-        indent += "    |";
-    } else {
-        cout << indent << Code(root.token.code) << "|" << '\n';
-        for (int i = 1; i <= to_string(root.token.code).size(); i++) {
-            indent += " ";
-        }
-        indent += "|";
+void NodeWriter(Node* node, string indent = "") {
+
+    cout << indent << node->getName() << "|" << '\n';
+    for (int i = 1; i <= node->getName().size(); i++) {
+        indent += " ";
     }
-    for (auto child : root.children) {
+    indent += "|";
+    for (auto child : node->getParameters()) {
         NodeWriter(child, indent);
+    }
+}
+
+void NodeChecker(RootNode root) {
+    for (auto node : root.nodes) {
+        NodeWriter(node);
     }
 }
 
@@ -38,8 +40,9 @@ int main() {
     }
 
     Parser parser;
-    Node root = parser.ProgramParse(tokenList);
-    NodeWriter(root);
+    auto root = parser.ProgramParse(tokenList);
+
+    //NodeWriter(root);
     return 0;
 }
 

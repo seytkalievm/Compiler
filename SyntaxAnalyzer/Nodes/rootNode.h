@@ -1,8 +1,8 @@
 #include <vector>
 #include <SyntaxAnalyzer/Nodes/node.h>
 #include <SyntaxAnalyzer/Nodes/nodeDeclaration.h>
-#include <SyntaxAnalyzer/Nodes/nodeExpression.h>
 #include <SyntaxAnalyzer/Nodes/nodeInvocation.h>
+#include <SyntaxAnalyzer/Nodes/nodeLiteral.h>
 
 #ifndef COMPILER_ROOTNODE_H
 #define COMPILER_ROOTNODE_H

@@ -29,10 +29,10 @@ public:
         this->declaration = declaration;
         this->nodeType = "Invocation";
     }
-    void setName(std::string name) {
+    virtual void setName(std::string name) {
         this->name = name;
     }
-    void addParameter(Node* node) {
+    virtual void addParameter(Node* node) {
         parameters.push_back(node);
     }
 };

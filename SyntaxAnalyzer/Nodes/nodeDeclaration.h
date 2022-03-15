@@ -7,6 +7,7 @@
 
 class NodeDeclaration: public Node {
 public:
+    std::string type;
     std::string name;
     std::vector <Node*> parameters;
     Node* expression;
@@ -15,6 +16,9 @@ public:
         this->nodeType = "Declaration";
     }
 
+    virtual std::string getType() {
+        return type;
+    }
     virtual std::string getName() {
         return name;
     }
@@ -25,14 +29,17 @@ public:
         return expression;
     }
 
+    virtual void setType(std::string x) {
+        this->type = x;
+    }
     virtual void setExpression(Node* expression) {
         this->expression = expression;
         this->nodeType = "Declaration";
     }
-    void setName(std::string name) {
+    virtual void setName(std::string name) {
         this->name = name;
     }
-    void addParameter(Node* node) {
+    virtual void addParameter(Node* node) {
         parameters.push_back(node);
     }
 };
