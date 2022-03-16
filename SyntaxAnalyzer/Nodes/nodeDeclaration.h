@@ -34,7 +34,6 @@ public:
     }
     virtual void setExpression(Node* expression) {
         this->expression = expression;
-        this->nodeType = "Declaration";
     }
     virtual void setName(std::string name) {
         this->name = name;

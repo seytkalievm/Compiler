@@ -80,7 +80,9 @@
 				22,
 				23,
 				24,
-				25
+				25,
+				30,
+				33
 			]
 		}
 	],
@@ -135,7 +137,9 @@
 				22,
 				23,
 				24,
-				25
+				25,
+				30,
+				33
 			]
 		},
 		{
@@ -148,7 +152,10 @@
 				26,
 				27,
 				28,
-				29
+				29,
+				31,
+				32,
+				34
 			]
 		}
 	],
@@ -325,6 +332,33 @@
 		{
 			"backtrace" : 1,
 			"path" : "SyntaxAnalyzer/Nodes/rootNode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Semantic/Cast/Cast.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Semantic/Cast/Cast.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Semantic/Context/GlobalContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "SyntaxAnalyzer/Parsers/ParameterParser.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "SyntaxAnalyzer/Nodes/nodeParameter.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -27,7 +27,6 @@ public:
 
     virtual void setDeclaration(Node* declaration) {
         this->declaration = declaration;
-        this->nodeType = "Invocation";
     }
     virtual void setName(std::string name) {
         this->name = name;

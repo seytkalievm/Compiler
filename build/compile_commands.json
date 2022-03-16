@@ -113,5 +113,15 @@
   "directory": "/Users/diazzzu/Documents/Compiler/build",
   "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I../ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14 -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o -c /Users/diazzzu/Documents/Compiler/SyntaxAnalyzer/Parsers/LiteralListParser.cpp",
   "file": "/Users/diazzzu/Documents/Compiler/SyntaxAnalyzer/Parsers/LiteralListParser.cpp"
+},
+{
+  "directory": "/Users/diazzzu/Documents/Compiler/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I../ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14 -o CMakeFiles/Compiler.dir/Semantic/Cast/Cast.cpp.o -c /Users/diazzzu/Documents/Compiler/Semantic/Cast/Cast.cpp",
+  "file": "/Users/diazzzu/Documents/Compiler/Semantic/Cast/Cast.cpp"
+},
+{
+  "directory": "/Users/diazzzu/Documents/Compiler/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -I../ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14 -o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ParameterParser.cpp.o -c /Users/diazzzu/Documents/Compiler/SyntaxAnalyzer/Parsers/ParameterParser.cpp",
+  "file": "/Users/diazzzu/Documents/Compiler/SyntaxAnalyzer/Parsers/ParameterParser.cpp"
 }
 ]

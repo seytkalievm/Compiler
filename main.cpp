@@ -5,6 +5,7 @@
 
 #include <LexicalAnalyzer/lexical_analyzer.h>
 #include <SyntaxAnalyzer/Parsers/Parser.h>
+#include <Semantic/Cast/Cast.h>
 
 using namespace std;
 
@@ -25,6 +26,10 @@ void NodeWriter(Node* node, string indent = "") {
         cout << indent << "Expression|" << '\n';
         NodeWriter(node->getExpression(), indent + "          |");
     }
+    if (node->nodeType == "Invocation") {
+        cout << indent << "Declaration|" << '\n';
+        cout << indent << node->getDeclaration()->getName() << '\n'; 
+    }
 }
 
 void NodeChecker(RootNode root) {
@@ -40,10 +45,13 @@ int main() {
     vector<Token> tokenList = lexicalAnalyzer.Analyze(sourcecode);
 
     for (auto x : tokenList) {
-         //cout << x.code << ' ';
+         // cout << x.code << ' ';
     }
     Parser parser;
     auto root = parser.ProgramParse(tokenList);
+    
+    // NodeChecker(root);
+    CastRoot(&root);
     NodeChecker(root);
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <string>
 #include <vector>
+#include <iostream>
 
 #ifndef COMPILER_NODE_H
 #define COMPILER_NODE_H
@@ -36,10 +37,10 @@ public:
         return "";
     }   
 
-    virtual void setDeclaration(){
-
+    virtual void setDeclaration(Node* node){
+        
     }
-    virtual void setExpression(){
+    virtual void setExpression(Node* node){
 
     }
     virtual void setName(std::string name){

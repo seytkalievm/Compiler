@@ -3,6 +3,7 @@
 #include <SyntaxAnalyzer/Nodes/nodeDeclaration.h>
 #include <SyntaxAnalyzer/Nodes/nodeInvocation.h>
 #include <SyntaxAnalyzer/Nodes/nodeLiteral.h>
+#include <SyntaxAnalyzer/Nodes/nodeParameter.h>
 
 #ifndef COMPILER_ROOTNODE_H
 #define COMPILER_ROOTNODE_H

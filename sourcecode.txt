@@ -1,2 +1,2 @@
-(func P (a b) (isint (plus a b)))
+(func P (a b) (isint (plus a с)))
 (P 1 2)

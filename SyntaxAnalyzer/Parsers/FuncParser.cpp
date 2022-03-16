@@ -3,6 +3,7 @@
 Node* ElementParser(Parser *parser, int *tokenNumber);
 Node* AtomParser(Parser *parser, int *tokenNumber);
 Node* LiteralListParser(Parser *parser, int *tokenNumber);
+Node* ParameterParser(Parser *parser, int *tokenNumber);
 
 Node* FuncParser(Parser *parser, int *tokenNumber) {
     NodeDeclaration *func_node = new NodeDeclaration();
@@ -13,18 +14,16 @@ Node* FuncParser(Parser *parser, int *tokenNumber) {
         parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
 
-    func_node->setType("function");
+    func_node->setType("functionNew");
     func_node->setName(AtomParser(parser, tokenNumber)->getName());
 
     if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
-        std::cerr << "here\n";
         parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
     (*tokenNumber) ++;
 
-    auto parameters = LiteralListParser(parser, tokenNumber);
-    for (auto parameter: parameters->getListVal()) {
-        func_node->addParameter(parameter);
+    while (parser->GetToken(*tokenNumber).code != tokCloseParenthesis) {
+        func_node->addParameter(ParameterParser(parser, tokenNumber));
     }
 
     (*tokenNumber) ++;
