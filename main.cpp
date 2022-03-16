@@ -13,13 +13,17 @@ using namespace std;
 
 void NodeWriter(Node* node, string indent = "") {
 
-    cout << indent << node->getName() << "|" << '\n';
-    for (int i = 1; i <= node->getName().size(); i++) {
+    cout << indent << node->getName() << "(" << node->nodeType << ")|" << '\n';
+    for (int i = 1; i <= node->getName().size() + node->nodeType.size() + 2; i++) {
         indent += " ";
     }
     indent += "|";
     for (auto child : node->getParameters()) {
         NodeWriter(child, indent);
+    }
+    if (node->nodeType == "Declaration") {
+        cout << indent << "Expression|" << '\n';
+        NodeWriter(node->getExpression(), indent + "          |");
     }
 }
 
@@ -30,19 +34,17 @@ void NodeChecker(RootNode root) {
 }
 
 int main() {
-    ifstream sourcecode ("sourcecode.txt");
-
+    ifstream sourcecode ("/Users/diazzzu/Documents/Compiler/sourcecode.txt");
+    
     LexicalAnalyzer lexicalAnalyzer;
     vector<Token> tokenList = lexicalAnalyzer.Analyze(sourcecode);
 
     for (auto x : tokenList) {
-        //cout << x.code << ' ';
+         //cout << x.code << ' ';
     }
-
     Parser parser;
     auto root = parser.ProgramParse(tokenList);
-
-    //NodeWriter(root);
+    NodeChecker(root);
     return 0;
 }
 

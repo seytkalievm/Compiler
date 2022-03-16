@@ -9,6 +9,7 @@ Node* FuncParser(Parser *parser, int *tokenNumber) {
     (*tokenNumber) ++;
 
     if (parser->GetToken(*tokenNumber).code != tokAtom) {
+        std::cerr << "here\n";
         parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
 
@@ -16,12 +17,13 @@ Node* FuncParser(Parser *parser, int *tokenNumber) {
     func_node->setName(AtomParser(parser, tokenNumber)->getName());
 
     if (parser->GetToken(*tokenNumber).code != tokOpenParenthesis) {
+        std::cerr << "here\n";
         parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }
     (*tokenNumber) ++;
 
     auto parameters = LiteralListParser(parser, tokenNumber);
-    for (auto parameter: parameters->getParameters()) {
+    for (auto parameter: parameters->getListVal()) {
         func_node->addParameter(parameter);
     }
 

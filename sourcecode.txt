@@ -1,0 +1,2 @@
+(func P (a b) (isint (plus a b)))
+(P 1 2)

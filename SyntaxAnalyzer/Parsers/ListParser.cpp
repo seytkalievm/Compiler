@@ -67,7 +67,6 @@ Node* ListParser(Parser *parser, int *tokenNumber){
         func_invocation->setName(currentToken.value.atomVal);
         (*tokenNumber) ++;
         auto parameters = LiteralListParser(parser, tokenNumber)->getListVal();
-        (*tokenNumber) ++;
         for (auto x : parameters) {
             func_invocation->addParameter(x);
         }
@@ -75,7 +74,6 @@ Node* ListParser(Parser *parser, int *tokenNumber){
     } else {
         element_node = LiteralListParser(parser, tokenNumber);
     }
-
     if (parser->GetToken(*tokenNumber).code != tokCloseParenthesis) {
         parser->ErrorMessage(parser->GetToken(*tokenNumber).location.line, parser->GetToken(*tokenNumber).location.position);
     }

@@ -1,4 +1,5 @@
 #include "lexical_analyzer.h"
+#include <iostream>
 
 Token LexicalAnalyzer::getNextToken(std::ifstream *file, int *curLine, int *curPos) {
     Token token;
