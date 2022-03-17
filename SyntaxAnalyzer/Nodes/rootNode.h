@@ -16,6 +16,8 @@ public:
     void AddChild(Node* node) {
         nodes.push_back(node);
     }
+
+    
 };
 
 #endif //COMPILER_ROOTNODE_H

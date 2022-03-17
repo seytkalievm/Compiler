@@ -2,12 +2,32 @@
 #include <vector>
 #include <iostream>
 
+#include "llvm/ADT/APFloat.h"
+#include "llvm/ADT/STLExtras.h"
+#include "llvm/IR/BasicBlock.h"
+#include "llvm/IR/Constants.h"
+#include "llvm/IR/DerivedTypes.h"
+#include "llvm/IR/Function.h"
+#include "llvm/IR/IRBuilder.h"
+#include "llvm/IR/LLVMContext.h"
+#include "llvm/IR/Module.h"
+#include "llvm/IR/Type.h"
+#include "llvm/IR/Verifier.h"
+#include "llvm/Transforms/Utils/FunctionComparator.h"
+
 #ifndef COMPILER_NODE_H
 #define COMPILER_NODE_H
+
+static llvm::LLVMContext TheContext;
+static llvm::IRBuilder<> Builder(TheContext);
+static std::unique_ptr<llvm::Module> TheModule = std::make_unique<llvm::Module>("soso", TheContext);
+static std::map<std::string, llvm::Value *> NamedValues;
 
 class Node {
 public:
     std::string nodeType;
+
+    virtual llvm::Value *codegen() = 0;
 
     virtual std::string getName(){
         return "";

@@ -41,6 +41,11 @@ public:
     virtual void addParameter(Node* node) {
         parameters.push_back(node);
     }
+
+    virtual llvm::Value *codegen() {
+        return nullptr;
+    }
+
 };
 
 #endif //COMPILER_NODEDECLARATION_H

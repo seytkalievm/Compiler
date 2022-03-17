@@ -52,6 +52,31 @@ public:
     virtual void addListVal(Node* x) {
         this->listVal.push_back(x);
     }
+    virtual llvm::Value *codegen() {
+        if (name == "real") {
+            return llvm::ConstantFP::get(TheContext, llvm::APFloat(realVal));
+        }
+        if (name == "int") {
+            return llvm::ConstantInt::get(TheContext, llvm::APInt(32, intVal));
+        }
+        if (name == "boolean") {
+            return llvm::ConstantInt::get(TheContext, llvm::APInt(1, (int)booleanVal));
+        }
+        if (name == "list") {
+            auto *VectorTy = llvm::VectorType::get(listVal[0]->codegen()->getType(), (int)listVal.size(), true);
+            llvm::Value *vec = llvm::UndefValue::get(VectorTy);
+            int counter = 0;
+            for (auto el: listVal) {
+                auto element = el->codegen();
+                if (element->getType() != listVal[0]->codegen()->getType()) {
+                    std::cout << "not same type";
+                    exit(0);
+                }
+                vec = Builder.CreateInsertElement(vec, element, counter++);
+            }
+            return vec;
+        }
+    }
 };
 
 #endif 

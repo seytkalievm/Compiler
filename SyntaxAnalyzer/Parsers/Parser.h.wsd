@@ -1,0 +1,12 @@
+@startuml
+set namespaceSeparator ::
+
+class Parser {
++ Token[] tokenList;
+
++ RootNode ProgramParse(int List)
++ Token GetToken(int tokenNumber)
++ void ErrorMessage(int line, int position)
+}
+
+@enduml

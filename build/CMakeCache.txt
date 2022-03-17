@@ -212,6 +212,30 @@ Compiler_BINARY_DIR:STATIC=/Users/diazzzu/Documents/Compiler/build
 //Value Computed by CMake
 Compiler_SOURCE_DIR:STATIC=/Users/diazzzu/Documents/Compiler
 
+//Path to a file.
+LIBXML2_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/libxml2
+
+//Path to a library.
+LIBXML2_LIBRARY:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libxml2.tbd
+
+//Path to a program.
+LIBXML2_XMLLINT_EXECUTABLE:FILEPATH=/usr/bin/xmllint
+
+//No help, variable specified on the command line.
+LLVM_DIR:UNINITIALIZED=/usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
+
+//Path to a file.
+ZLIB_INCLUDE_DIR:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include
+
+//Path to a library.
+ZLIB_LIBRARY_DEBUG:FILEPATH=ZLIB_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+ZLIB_LIBRARY_RELEASE:FILEPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd
+
 
 ########################
 # INTERNAL cache entries
@@ -346,4 +370,44 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding LibXml2
+FIND_PACKAGE_MESSAGE_DETAILS_LibXml2:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libxml2.tbd][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/libxml2][v2.9.4()]
+//Details about finding ZLIB
+FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd][/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include][v1.2.11()]
+//ADVANCED property for variable: LIBXML2_INCLUDE_DIR
+LIBXML2_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LIBXML2_LIBRARY
+LIBXML2_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: LIBXML2_XMLLINT_EXECUTABLE
+LIBXML2_XMLLINT_EXECUTABLE-ADVANCED:INTERNAL=1
+PC_LIBXML_CFLAGS:INTERNAL=
+PC_LIBXML_CFLAGS_I:INTERNAL=
+PC_LIBXML_CFLAGS_OTHER:INTERNAL=
+PC_LIBXML_FOUND:INTERNAL=
+PC_LIBXML_INCLUDEDIR:INTERNAL=
+PC_LIBXML_LIBDIR:INTERNAL=
+PC_LIBXML_LIBS:INTERNAL=
+PC_LIBXML_LIBS_L:INTERNAL=
+PC_LIBXML_LIBS_OTHER:INTERNAL=
+PC_LIBXML_LIBS_PATHS:INTERNAL=
+PC_LIBXML_MODULE_NAME:INTERNAL=
+PC_LIBXML_PREFIX:INTERNAL=
+PC_LIBXML_STATIC_CFLAGS:INTERNAL=
+PC_LIBXML_STATIC_CFLAGS_I:INTERNAL=
+PC_LIBXML_STATIC_CFLAGS_OTHER:INTERNAL=
+PC_LIBXML_STATIC_LIBDIR:INTERNAL=
+PC_LIBXML_STATIC_LIBS:INTERNAL=
+PC_LIBXML_STATIC_LIBS_L:INTERNAL=
+PC_LIBXML_STATIC_LIBS_OTHER:INTERNAL=
+PC_LIBXML_STATIC_LIBS_PATHS:INTERNAL=
+PC_LIBXML_VERSION:INTERNAL=
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_INCLUDE_DIR
+ZLIB_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_DEBUG
+ZLIB_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: ZLIB_LIBRARY_RELEASE
+ZLIB_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+__pkg_config_checked_PC_LIBXML:INTERNAL=1
 

@@ -33,8 +33,19 @@ void NodeWriter(Node* node, string indent = "") {
 }
 
 void NodeChecker(RootNode root) {
+    std::cout << '\n';
     for (auto node : root.nodes) {
         NodeWriter(node);
+    }
+    std::cout << '\n';
+}
+
+void CodeGen(RootNode root) {
+    for (auto node : root.nodes) {
+        if (node->nodeType == "Invocation") {
+            node->codegen()->print(llvm::errs());
+            std::cout << '\n';
+        }
     }
 }
 
@@ -50,9 +61,10 @@ int main() {
     Parser parser;
     auto root = parser.ProgramParse(tokenList);
     
-    // NodeChecker(root);
     CastRoot(&root);
-    NodeChecker(root);
+    //NodeChecker(root);
+
+    CodeGen(root);
     return 0;
 }
 

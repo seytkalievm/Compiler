@@ -457,14 +457,14 @@ public:
     }
     virtual Node* getDefinition(std::string name) {
         if (!isDefined(name)) {
-            std::cout << name << " not exist\n";
+            std::cout << name << "is not exist\n";
             exit(0);
         }
         return mapDeclared[name];
     }
     void addDefinition(std::string name, Node* def) {
         if (isDefined(name)) {
-            std::cout << name << " already exist\n";
+            std::cout << name << "is already exist\n";
             exit(0);
         }
         mapDeclared[name] = def;

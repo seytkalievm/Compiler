@@ -34,6 +34,255 @@ CONFIGURATION = Debug
 
 include CMakeFiles/rules.ninja
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Compiler
+
+
+#############################################
+# Order-only phony target for Compiler
+
+build cmake_object_order_depends_target_Compiler: phony || CMakeFiles/Compiler.dir
+
+build CMakeFiles/Compiler.dir/main.cpp.o: CXX_COMPILER__Compiler_Debug ../main.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/main.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ElementParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/Parser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/Parser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/Parser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/AtomParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/LiteralParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ListParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/SetqParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/FuncParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/LambdaParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ProgParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/CondParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o: CXX_COMPILER__Compiler_Debug ../LexicalAnalyzer/lexical_analyzer.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/LexicalAnalyzer
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/WhileParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ReturnParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/BreakParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ArithmeticParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/OperationOnListParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ComparisonParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/PredicatesParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/LogicalOpParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/EvalParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/QuoteParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/LiteralListParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ParameterParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ParameterParser.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ParameterParser.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
+
+build CMakeFiles/Compiler.dir/Semantic/Cast/Cast.cpp.o: CXX_COMPILER__Compiler_Debug ../Semantic/Cast/Cast.cpp || cmake_object_order_depends_target_Compiler
+  DEFINES = -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+  DEP_FILE = CMakeFiles/Compiler.dir/Semantic/Cast/Cast.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
+  INCLUDES = -I../ -I/usr/local/Cellar/llvm/13.0.1_1/include
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/Semantic/Cast
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Compiler
+
+
+#############################################
+# Link the executable Compiler
+
+build Compiler: CXX_EXECUTABLE_LINKER__Compiler_Debug CMakeFiles/Compiler.dir/main.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/Parser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ParameterParser.cpp.o CMakeFiles/Compiler.dir/Semantic/Cast/Cast.cpp.o | /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMSupport.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMCore.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMIRReader.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMAsmParser.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMBitReader.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMCore.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMBinaryFormat.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMRemarks.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMBitstreamReader.a /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMSupport.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib/libcurses.tbd /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMDemangle.a
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1
+  LINK_LIBRARIES = /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMSupport.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMCore.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMIRReader.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMAsmParser.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMBitReader.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMCore.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMBinaryFormat.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMRemarks.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMBitstreamReader.a  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMSupport.a  -lm  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/lib/libz.tbd  /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib/libcurses.tbd  /usr/local/Cellar/llvm/13.0.1_1/lib/libLLVMDemangle.a
+  OBJECT_DIR = CMakeFiles/Compiler.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Compiler
+  TARGET_PDB = Compiler.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/diazzzu/Documents/Compiler/build && /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for acc_gen
+
+build acc_gen: phony
+
+
+#############################################
+# Utility command for omp_gen
+
+build omp_gen: phony
+
 
 #############################################
 # Utility command for rebuild_cache
@@ -48,214 +297,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
-# Utility command for edit_cache
+# Utility command for intrinsics_gen
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/diazzzu/Documents/Compiler/build && /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build edit_cache: phony CMakeFiles/edit_cache.util
-
-# =============================================================================
-# Object build statements for EXECUTABLE target Compiler
-
-
-#############################################
-# Order-only phony target for Compiler
-
-build cmake_object_order_depends_target_Compiler: phony || CMakeFiles/Compiler.dir
-
-build CMakeFiles/Compiler.dir/main.cpp.o: CXX_COMPILER__Compiler_Debug ../main.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ElementParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/Parser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/Parser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/Parser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/AtomParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/LiteralParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ListParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/SetqParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/FuncParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/LambdaParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ProgParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/CondParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o: CXX_COMPILER__Compiler_Debug ../LexicalAnalyzer/lexical_analyzer.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/LexicalAnalyzer
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/WhileParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ReturnParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/BreakParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ArithmeticParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/OperationOnListParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ComparisonParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/PredicatesParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/LogicalOpParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/EvalParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/QuoteParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/LiteralListParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-build CMakeFiles/Compiler.dir/Semantic/Cast/Cast.cpp.o: CXX_COMPILER__Compiler_Debug ../Semantic/Cast/Cast.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/Semantic/Cast/Cast.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/Semantic/Cast
-
-build CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ParameterParser.cpp.o: CXX_COMPILER__Compiler_Debug ../SyntaxAnalyzer/Parsers/ParameterParser.cpp || cmake_object_order_depends_target_Compiler
-  DEP_FILE = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ParameterParser.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1 -std=gnu++14
-  INCLUDES = -I../
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  OBJECT_FILE_DIR = CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Compiler
-
-
-#############################################
-# Link the executable Compiler
-
-build Compiler: CXX_EXECUTABLE_LINKER__Compiler_Debug CMakeFiles/Compiler.dir/main.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ElementParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/Parser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/AtomParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ListParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/SetqParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/FuncParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LambdaParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ProgParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/CondParser.cpp.o CMakeFiles/Compiler.dir/LexicalAnalyzer/lexical_analyzer.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/WhileParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ReturnParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/BreakParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ArithmeticParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/OperationOnListParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ComparisonParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/PredicatesParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LogicalOpParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/EvalParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/QuoteParser.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/LiteralListParser.cpp.o CMakeFiles/Compiler.dir/Semantic/Cast/Cast.cpp.o CMakeFiles/Compiler.dir/SyntaxAnalyzer/Parsers/ParameterParser.cpp.o
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -mmacosx-version-min=11.1
-  OBJECT_DIR = CMakeFiles/Compiler.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = Compiler
-  TARGET_PDB = Compiler.dbg
+build intrinsics_gen: phony
 
 # =============================================================================
 # Target aliases.
@@ -277,14 +321,14 @@ build all: phony Compiler
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeGenericSystem.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/AppleClang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/AppleClang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/Clang.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/GNU.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-AppleClang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-AppleClang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Darwin-Initialize.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Darwin.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.18.4/CMakeCCompiler.cmake CMakeFiles/3.18.4/CMakeCXXCompiler.cmake CMakeFiles/3.18.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeGenericSystem.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/AppleClang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/AppleClang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/Clang.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/GNU.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindLibXml2.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindPackageMessage.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindPkgConfig.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindZLIB.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-AppleClang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-AppleClang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Darwin-Initialize.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Darwin.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/UnixPaths.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/SelectLibraryConfigurations.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVM-Config.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVMConfig.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVMConfigVersion.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVMExports-release.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVMExports.cmake CMakeCache.txt CMakeFiles/3.18.4/CMakeCCompiler.cmake CMakeFiles/3.18.4/CMakeCXXCompiler.cmake CMakeFiles/3.18.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeGenericSystem.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/AppleClang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/AppleClang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/Clang.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/GNU.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-AppleClang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-AppleClang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Darwin-Initialize.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Darwin.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.18.4/CMakeCCompiler.cmake CMakeFiles/3.18.4/CMakeCXXCompiler.cmake CMakeFiles/3.18.4/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCXXInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeGenericSystem.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/AppleClang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/AppleClang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/Clang.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Compiler/GNU.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindLibXml2.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindPackageMessage.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindPkgConfig.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/FindZLIB.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-AppleClang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-AppleClang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang-C.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang-CXX.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Apple-Clang.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Darwin-Initialize.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/Darwin.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/Platform/UnixPaths.cmake /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/cmake/data/CMake.app/Contents/share/cmake-3.18/Modules/SelectLibraryConfigurations.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVM-Config.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVMConfig.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVMConfigVersion.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVMExports-release.cmake /usr/local/Cellar/llvm/13.0.1_1/lib/cmake/llvm/LLVMExports.cmake CMakeCache.txt CMakeFiles/3.18.4/CMakeCCompiler.cmake CMakeFiles/3.18.4/CMakeCXXCompiler.cmake CMakeFiles/3.18.4/CMakeSystem.cmake: phony
 
 
 #############################################

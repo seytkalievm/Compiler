@@ -1,2 +1,9 @@
-(func P (a b) (isint (plus a с)))
-(P 1 2)
+(setq a 5)
+(setq b 4)
+(setq sum (plus a b))
+
+(times sum 2)
+
+(func A (a) (minus sum a))
+
+(A 5)

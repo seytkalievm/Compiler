@@ -21,7 +21,7 @@ public:
 
     virtual Node* getDefinition(std::string name) {
         if (!isDefinedParameter(name) && !isDefined(name)) {
-            std::cout << name << " not exist\n";
+            std::cout << name << "is not exist\n";
             exit(0);
         }
 
@@ -33,7 +33,7 @@ public:
     }
     void addParameter(std::string name, Node* def) {
         if (isDefinedParameter(name)) {
-            std::cout << name << " already exist\n";
+            std::cout << name << "is already exist\n";
             exit(0);
         }
         mapParameters[name] = def;

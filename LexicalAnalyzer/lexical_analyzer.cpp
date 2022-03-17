@@ -95,10 +95,6 @@ Token LexicalAnalyzer::getNextToken(std::ifstream *file, int *curLine, int *curP
         token.code = tokXor;
     } else if (tokenLetters == "not") {
         token.code = tokNot;
-    } else if (tokenLetters == "true") {
-        token.code = tokTrue;
-    } else if (tokenLetters == "false") {
-        token.code = tokFalse;
     } else if (tokenLetters == "plus") {
         token.code = tokPlus;
     } else if (tokenLetters == "minus") {
@@ -136,10 +132,10 @@ Token LexicalAnalyzer::getNextToken(std::ifstream *file, int *curLine, int *curP
             token.value.atomVal = tokenLetters;
         }
     } else {
-        if (tokenLetters == "nill") {
+        if (tokenLetters == "false") {
             token.code = tokBoolean;
             token.value.boolVal = false;
-        } else if (tokenLetters == "t") {
+        } else if (tokenLetters == "true") {
             token.code = tokBoolean;
             token.value.boolVal = true;
         } else {

@@ -23,7 +23,7 @@ void CastNode(Node* node, GlobalContext* context) {
         context->addDefinition(node->getName(), node);
         FuncContext *funcContext = new FuncContext(*context);
         for (auto parameter: node->getParameters()) {
-            funcContext->addParameter(parameter->getName(), parameter);
+            funcContext->addParameter(parameter->getName(), parameter->getDeclaration());
         }
         CastNode(node->getExpression(), funcContext);
     }

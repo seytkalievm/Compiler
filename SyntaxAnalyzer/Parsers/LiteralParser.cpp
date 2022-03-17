@@ -9,11 +9,11 @@ Node* LiteralParser(Parser *parser, int *tokenNumber) {
     }
     if (literalType.code == tokReal) {
         literal_node->setName("real");
-        literal_node->setIntVal(literalType.value.realVal);
+        literal_node->setRealVal(literalType.value.realVal);
     }
     if (literalType.code == tokBoolean) {
         literal_node->setName("boolean");
-        literal_node->setIntVal(literalType.value.boolVal);
+        literal_node->setBooleanVal(literalType.value.boolVal);
     }
     (*tokenNumber) ++;
     return literal_node;
